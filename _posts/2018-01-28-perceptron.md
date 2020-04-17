@@ -3,7 +3,7 @@ title: "Titanic Analysis Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/titanic_analysis/titanic.jpg"
+  image: "/images/titanic_analysis/titanic.png"
 excerpt: "Titanic Analysis, Data Science"
 mathjax: "true"
 ---
