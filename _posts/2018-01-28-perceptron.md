@@ -13,7 +13,8 @@ mathjax: "true"
 ## H2 Heading
 
 ### H3 Heading
-
+## Table of Content:
+1. ["Topic of the"](#try)
 Here's some basic text.
 
 And here's some *italics*
@@ -58,6 +59,7 @@ Here's another image using Kramdown:
 
 Here's some math:
 
+<a id= "try"></a>
 $$z=x+y$$
 
 You can also put it inline $$z=x+y$$
