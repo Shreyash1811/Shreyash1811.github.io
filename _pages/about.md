@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/about_banner.jpg"
+  image: "/images/banners/about_banner.jpg"
 ---
 
 editing - I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.

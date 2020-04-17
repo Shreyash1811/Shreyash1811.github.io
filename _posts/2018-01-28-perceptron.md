@@ -1,10 +1,10 @@
 ---
-title: "Machine Learning Project"
+title: "Titanic Analysis Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
-excerpt: "Project name, Data Science"
+  image: "/images/titanic_analysis/titanic.jpg"
+excerpt: "Titanic Analysis, Data Science"
 mathjax: "true"
 ---
 
