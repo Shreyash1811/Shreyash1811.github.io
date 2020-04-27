@@ -16,6 +16,9 @@ I am a Data Science Enthusiast.
 
 # **EDUCATION** :
 <font size="3"> trying font size </font>
+<p style="font-family: times, serif; font-size:11pt; font-style:italic">
+    Why did we use these specific parameters during the calculation of the fingerprints? </p>
+    
 <a id = "edu"></a>
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
  *In four years of my B-tech I learned and grew in key technical areas such as:*
@@ -42,7 +45,7 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - **Data Mining:** Machine Learning concepts and practices used in large organizations to make the best use of growing data availability.
 - **Data Engineering:** Theoretical and practical implementation of Database management and Graph Network theory with business cases in different domains ranging from economics and agriculture to stock market.
 - **Corporate Finance and Accounting:** Advance concepts of Finance and Accounting with financial analysis and modelling on real world case studies dealing with merger and acquisitions and forecast value evaluation.
-- **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior,  economic value creation , Value-based strategies etc. 
+- **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior,  economic value creation , Value-based strategies etc.
 - **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects), Management of Information System, Organizational behavior.
 
 
