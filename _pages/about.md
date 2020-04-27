@@ -20,7 +20,16 @@ I am a Data Science Enthusiast with
 
 
 
-<p style="font-family: times, serif; font-size:20pt; font-style: italics ; color:Tomato; text-align:center;"> **EDUCATION** : </p>
+<p style="font-family: Georgia, serif;
+font-size: 20px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+text-decoration: underline solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;"> EDUCATION : </p>
 
 <a id = "edu"></a>
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
