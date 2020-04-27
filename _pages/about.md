@@ -16,9 +16,9 @@ I am a Data Science Enthusiast.
 
 # **EDUCATION** :
 <font size="3"> trying font size </font>
-<p style="font-family: times, serif; font-size:11pt; font-style:italic">
+<p style="font-family: times, serif; font-size:11pt; font-style:italic; background-color:Tomato;">
     Why did we use these specific parameters during the calculation of the fingerprints? </p>
-    
+
 <a id = "edu"></a>
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
  *In four years of my B-tech I learned and grew in key technical areas such as:*
@@ -37,6 +37,7 @@ I am a Data Science Enthusiast.
 ## 2. Masters of Science in Management of Technology from New York University, New York, USA.
 *Soon after working fulltime for a year I realized a gap between my technical problem solving skills and Business growing inference.
 To bridge this gap I decided to pursue my Masters and broaden my knowledge and skills in Data exploration, Data Inference and Business Growth strategy building*
+
 *In two years of my Msc I learned and grew in key technical areas such as:*
 - **Statistics for Data Analytics:** Exploring underlying mathematical foundation of descriptive statistics, probability, and hypothesis testing, also covered regression analysis and time series analysis with an emphasis on model formulation and interpretation of results.
 - **Business Intelligence Analysis:** Concepts and best practices for corporate Dashboard reporting with use of BI tools like Advance excel, Power BI, Tableau and Alteryx.
