@@ -8,6 +8,7 @@ header:
 # Hello, I am Shreyaskumar Kathiriya.
 I am a Data Science Enthusiast.
 # EDUCATION :
+![Trythis](/images/profile_picture.jpg)
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
  *In four years of my B-tech I learned and grew in key technical areas such as:*
  -  Digital communication techniques[x]

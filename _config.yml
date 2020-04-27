@@ -88,7 +88,7 @@ author:
   avatar           : "/images/profile_picture.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am Data Science enthusiast and a learner for life and inspire to grow my knowledge"
   location         : "New York"
-  email            :
+  email            : "sjk714@nyu.edu"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
