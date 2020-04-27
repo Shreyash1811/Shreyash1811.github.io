@@ -5,19 +5,22 @@ header:
   image: "/images/banners/about_banner.jpg"
 ---
 ## Table of Content:
-1. [Education:](#edu)
-2.
+1. [Introduction:]
+2. [Education:](#edu)
+3. [Work Experience]
+  1. [Sub Topic 1]
+  2. [sub topic 2]
 
-# Hello, I am Shreyaskumar Kathiriya.
-I am a Data Science Enthusiast.
+Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-Performance-Prediction/blob/master/BA_Project2_Team2.pdf)?  
+
+### Hello, I am Shreyaskumar Kathiriya.
+I am a Data Science Enthusiast with
 
 
 
 
-# **EDUCATION** :
-<font size="3"> trying font size </font>
-<p style="font-family: times, serif; font-size:11pt; font-style:italic; color:Tomato; text-align:center;">
-    Why did we use these specific parameters during the calculation of the fingerprints? </p>
+
+<p style="font-family: times, serif; font-size:20pt; font-style: italics ; color:Tomato; text-align:center;"> **EDUCATION** : </p>
 
 <a id = "edu"></a>
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
