@@ -18,7 +18,7 @@ I am a Data Science Enthusiast with
 
 
 
-
+'
 
 <p style="font-family: Georgia, serif;
 font-size: 20px;
@@ -28,6 +28,7 @@ color: #000000;
 font-weight: normal;
 text-decoration: underline solid rgb(68, 68, 68);
 font-style: normal;
+text-orientation: center;
 font-variant: small-caps;
 text-transform: none;"> EDUCATION : </p>
 
