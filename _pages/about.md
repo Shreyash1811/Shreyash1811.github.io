@@ -6,8 +6,9 @@ header:
 ---
 
 # Hello, I am Shreyaskumar Kathiriya.
-## EDUCATION :
-1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
+I am a Data Science Enthusiast.
+# EDUCATION :
+## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
  In four years of my B-tech I learned and grew in key technical areas such as:
  - Digital communication techniques
  - Information theory
@@ -20,7 +21,7 @@ header:
  - Function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, meet objectives, using appropriate learning strategies.
  *Besides a solid math science/engineering education, I was exposed to application fields such as IoT, Embedded Systems, Networking, Communication, Control Systems, Microwave and Antenna, Basic Electronics and Signal & Image Processing.*
 
- 2. Masters of Science in Management of Technology from New York University, New York, USA.
+ ## 2. Masters of Science in Management of Technology from New York University, New York, USA.
 
 
 ## Work Experience :
