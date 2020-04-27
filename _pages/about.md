@@ -10,11 +10,11 @@ I am a Data Science Enthusiast.
 # EDUCATION :
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
  *In four years of my B-tech I learned and grew in key technical areas such as:*
- [x] Digital communication techniques
- [x] Information theory
- [x] Electronic design
- [x] High-frequency techniques
- [x] Core Java Programing
+ -  Digital communication techniques[x]
+ -  Information theory [x]
+ -  Electronic design [x]
+ -  High-frequency techniques [x]
+ -  Core Java Programing [x]
 ### Learning Curve:  
  - Developed and conducted appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
  - Identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics.
