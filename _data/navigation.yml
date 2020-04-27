@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "About"
+  - title: "About Me"
     url: /about/
   - title: "Machine Learning Projects"
     url: /machine-learning/
