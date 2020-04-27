@@ -16,7 +16,7 @@ I am a Data Science Enthusiast.
 
 # **EDUCATION** :
 <font size="3"> trying font size </font>
-<p style="font-family: times, serif; font-size:11pt; font-style:italic; background-color:Tomato;">
+<p style="font-family: times, serif; font-size:11pt; font-style:italic; color:Tomato;">
     Why did we use these specific parameters during the calculation of the fingerprints? </p>
 
 <a id = "edu"></a>
