@@ -14,7 +14,8 @@ header:
 Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-Performance-Prediction/blob/master/BA_Project2_Team2.pdf)?  
 
 ### Hello, I am Shreyaskumar Kathiriya.
-I am a Data Science Enthusiast with
+I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning introduced me to data analytics, and since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that gets me an adrenaline rush. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
+
 
 
 <p style="font-family: Georgia, serif;
@@ -32,8 +33,8 @@ text-transform: none;"> EDUCATION </p>
 
 <!-- ## B-Tech Electronics and Telecommunication from NMIMS Mumbai, India. -->
 
-<p style="font-family: Georgia, serif;
-font-size: 30px;
+<p style="font-family: "Times New Roman", Times, serif;
+font-size: 20px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
 color: #000000;
@@ -41,7 +42,7 @@ font-weight: normal;
 font-style: normal;
 text-align: center;
 font-variant: small-caps;
-text-transform: none;"> EDUCATION </p>
+text-transform: none;"> B-Tech Electronics and Telecommunication from NMIMS Mumbai, India. </p>
 
 
  *In four years of my B-tech I learned and grew in key technical areas such as:*
@@ -60,8 +61,8 @@ text-transform: none;"> EDUCATION </p>
 
 <!--## 2. Masters of Science in Management of Technology from New York University, New York, USA.-->
 
-<p style="font-family: Georgia, serif;
-font-size: 30px;
+<p style="font-family: "Times New Roman", Times, serif;
+font-size: 20px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
 color: #000000;
@@ -69,7 +70,7 @@ font-weight: normal;
 font-style: normal;
 text-align: center;
 font-variant: small-caps;
-text-transform: none;"> EDUCATION </p>
+text-transform: none;"> Masters of Science in Management of Technology from New York University, New York, USA.</p>
 
 
 *Soon after working fulltime for a year I realized a gap between my technical problem solving skills and Business growing inference.
@@ -86,8 +87,18 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior,  economic value creation , Value-based strategies etc.
 - **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects), Management of Information System, Organizational behavior.
 
+<!--!# Work Experience : -->
+<p style="font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Work Experience </p>
 
-# Work Experience :
 ## Business Analyst, New York University IT Operations Technology Services Support.
 - Assisted with the software development lifecycle, from gathering client requirements to training users, testing and documenting newly deployed features and systems. Shipping sustainable solutions addressing complex organizational needs.
 - Integration and System Testing and maintain them using test case management tools like JIRA and Confluence.
@@ -113,5 +124,6 @@ research journals and used EndNote to manage citation with international publica
 
 
 ## Online Courses
+
 
 ## Hobbies
