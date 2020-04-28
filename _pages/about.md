@@ -5,17 +5,19 @@ header:
   image: "/images/banners/about_banner.jpg"
 ---
 ## Table of Content:
-1. [Introduction:]
+1. [Introduction:](#intro)
 2. [Education:](#edu)
 3. [Work Experience]
-  1. [Sub Topic 1]
-  2. [sub topic 2]
+    1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
+    2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
+    3. [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
+    4. [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
 
 Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-Performance-Prediction/blob/master/BA_Project2_Team2.pdf)?  
 
 ### Hello, I am Shreyaskumar Kathiriya.
 I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning introduced me to data analytics, and since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that gets me an adrenaline rush. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
-
+<a id = "intro"></a>
 
 
 <p style="font-family: Georgia, serif;
@@ -100,12 +102,14 @@ font-variant: small-caps;
 text-transform: none;"> Work Experience </p>
 
 ## Business Analyst, New York University IT Operations Technology Services Support.
+<a id = "ex1"></a>
 - Assisted with the software development lifecycle, from gathering client requirements to training users, testing and documenting newly deployed features and systems. Shipping sustainable solutions addressing complex organizational needs.
 - Integration and System Testing and maintain them using test case management tools like JIRA and Confluence.
 - Performed Data Analysis and validation testing to check accuracy of the 13 million square feet of space data.
 - Developed metrics for data analysis to improve efficiency and quality of the service.
 
 ## Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.
+<a id = "ex2"></a>
 - Replaced traditional data processing with ETL pipeline built on python to expedite the process by 95%.
 - Modeled on power BI using DAX and Power query for dynamic dashboards with performance metrics and important KPIs.
 - Built process flow charts and deliverables timeline analysis to improve the efficiency of the projects.
@@ -113,17 +117,12 @@ text-transform: none;"> Work Experience </p>
 - Created Data governance guidelines to ensure quality data collection and reduce data pre-processing time by 70%.
 
 ## EndNote Software Citation Assistant, New York University Dentistry.
+<a id = "ex3"></a>
 - Scrapped data from google scholar using python to build and maintain a library for citation on endnote. Rectified and formatted
 research journals and used EndNote to manage citation with international publication standards.
 
 ## Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India.
+<a id = "ex4"></a>
 - Analyzed sales for monthly Tableau reports. Proposed strategies resulted in 14% yearly growth and 27% drop in inventory.
 - Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
 - Supervised a team of 4 to put forward cost cutting and marketing strategies; To further boost the Sales and profits.
-
-
-
-## Online Courses
-
-
-## Hobbies
