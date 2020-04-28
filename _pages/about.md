@@ -24,7 +24,8 @@ My journey to pursue Data Science as a career was fueled by my love for solving 
 I was fortunate to get to work with different companies from different industries. From the Manufacturing industry to an IT industry to a non-profit organization. This helped me understand how different organizations have different data requirements with different metrics and statistical approach to tackle their business problems and get desired business outcomes.
 
 I have worked in projects involving Data collection(web scraping), Database Management, Data wrangling, Data Analysis, Data cleaning, Data Visualization, Exploratory Data Analysis, Business Intelligence dashboards and Data Mining and Machine Learning concepts like Supervised and Unsupervised Modeling, Image and face Recognition, Hyperparameter Tuning, Feature selection/engineering, Recommendation System etc.
-**These projects helped me grow my knowledge in tools and scripting languages:**
+
+**These projects helped me grow my knowledge in tools and scripting languages in:**
 
 | Segment | Tools |
 |---------|:------:|
