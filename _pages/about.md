@@ -20,7 +20,7 @@ I am a Data Science Enthusiast with
 
 
 <p style="font-family: Georgia, serif;
-font-size: 20px;
+font-size: 30px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
 color: #000000;
@@ -29,7 +29,7 @@ text-decoration: underline solid rgb(68, 68, 68);
 font-style: normal;
 text-align: center;
 font-variant: small-caps;
-text-transform: none;"> EDUCATION : </p>
+text-transform: none;"> EDUCATION </p>
 
 <a id = "edu"></a>
 ## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
@@ -62,7 +62,29 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects), Management of Information System, Organizational behavior.
 
 
-## Work Experience :
+# Work Experience :
+## Business Analyst, New York University IT Operations Technology Services Support.
+- Assisted with the software development lifecycle, from gathering client requirements to training users, testing and documenting newly deployed features and systems. Shipping sustainable solutions addressing complex organizational needs.
+- Integration and System Testing and maintain them using test case management tools like JIRA and Confluence.
+- Performed Data Analysis and validation testing to check accuracy of the 13 million square feet of space data.
+- Developed metrics for data analysis to improve efficiency and quality of the service.
+
+## Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.
+- Replaced traditional data processing with ETL pipeline to expedite the process by 95%.
+- Modeled on power BI using DAX and Power query for dynamic dashboards with performance metrics and important KPIs.
+- Built process flow charts and deliverables timeline analysis to improve the efficiency of the projects.
+- Designed schema and Built a database for sub departments with Microsoft Access and SQL Server.
+- Created Data governance guidelines to ensure quality data collection and reduce data pre-processing time by 70%.
+
+## EndNote Software Citation Assistant, New York University Dentistry.
+- Scrapped data from google scholar using python to build and maintain a library for citation on endnote. Rectified and formatted
+research journals and used EndNote to manage citation with international publication standards.
+
+## Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India.
+- Analyzed sales for monthly Tableau reports. Proposed strategies resulted in 14% yearly growth and 27% drop in inventory.
+- Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
+
+
 
 ## Projects
 
