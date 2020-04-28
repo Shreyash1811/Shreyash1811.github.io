@@ -7,7 +7,7 @@ header:
 ## Table of Content:
 1. [Introduction:](#intro)
 2. [Education:](#edu)
-3. [Work Experience]
+3. [Work Experience](#ex)
     1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
     2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
     3. [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
@@ -16,7 +16,24 @@ header:
 Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-Performance-Prediction/blob/master/BA_Project2_Team2.pdf)?  
 
 ### Hello, I am Shreyaskumar Kathiriya.
-I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning introduced me to data analytics, and since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that gets me an adrenaline rush. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
+I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning.
+I was introduced to data analytics in an Economics course in my under graduation where I got invested in data collection and analysis which concerned with customer behavior analysis, Macro and Micro market impacts, and since then I have completely submerged myself to this unending roller-coaster of learning and practicing concepts of Analytics.
+
+My journey to pursue Data Science as a career was fueled by my love for solving puzzles as a kid, I relished data analysis as it was akin to a puzzle-solving. since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that excited me the most. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
+
+I was fortunate to get to work with different companies from different industries. From the Manufacturing industry to an IT industry to a non-profit organization. This helped me understand how different organizations have different data requirements with different metrics and statistical approach to tackle their business problems and get desired business outcomes.
+
+I have worked in projects involving **Data collection(web scraping), Database Management, Data wrangling, Data Analysis, Data cleaning, Data Visualization, Exploratory Data Analysis, Business Intelligence dashboards and Data Mining and Machine Learning concepts like Supervised and Unsupervised Modeling, Image and face Recognition, Hyperparameter Tuning, Feature selection/engineering, Recommendation System etc.**
+These projects helped me grow my knowledge in tools and scripting languages:
+| Segment | Tools |
+|---------|:------:|
+|Data Science scripting:| Python, R, SAS.|
+|Databases:| SQL, MySQL, Hive, DynamoDB, Google Big Query.|
+|Application Software:| Tableau, PowerBI, Alteryx, OBI, QlikView, Weka, Visio.|
+|Cloud Platforms:| AWS EC2, S3, Redshift.|
+|Management Tools:| Advance Excel and Power Point, JIRA, Confluence, Airtable, Google Suite, Github.|
+
+
 <a id = "intro"></a>
 
 
@@ -89,6 +106,7 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior,  economic value creation , Value-based strategies etc.
 - **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects), Management of Information System, Organizational behavior.
 
+<a id = "ex"></a>
 <!--!# Work Experience : -->
 <p style="font-family: Times New Roman, Times, serif;
 font-size: 30px;
