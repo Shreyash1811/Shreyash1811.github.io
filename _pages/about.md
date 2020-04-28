@@ -61,7 +61,7 @@ text-transform: none;"> B-Tech Electronics and Telecommunication from NMIMS Mumb
 
 <!--## 2. Masters of Science in Management of Technology from New York University, New York, USA.-->
 
-<p style="font-family: "Times New Roman", Times, serif;
+<p style="font-family: Times New Roman, Times, serif;
 font-size: 20px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
