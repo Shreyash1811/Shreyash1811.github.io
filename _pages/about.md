@@ -17,8 +17,6 @@ Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-
 I am a Data Science Enthusiast with
 
 
-<h1> this is html header</h>
-
 <p style="font-family: Georgia, serif;
 font-size: 30px;
 letter-spacing: -1.2px;
@@ -31,21 +29,46 @@ font-variant: small-caps;
 text-transform: none;"> EDUCATION </p>
 
 <a id = "edu"></a>
-## 1. B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.
+
+
+<!-- ## B-Tech Electronics and Telecommunication from NMIMS Mumbai, India. -->
+<p style="font-family: Georgia, serif;
+font-size: 20px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> B-Tech Electronics and Telecommunication from NMIMS Mumbai, India. </p>
+
  *In four years of my B-tech I learned and grew in key technical areas such as:*
  -  Digital communication techniques
  -  Information theory
  -  Electronic design
  -  High-frequency techniques
  -  Core Java Programing
-### Learning Curve:  
+### Summary:  
  - Developed and conducted appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
  - Identify, formulate, and solve complex engineering problems by applying principles of engineering, science, and mathematics.
  - Function effectively on a team whose members together provide leadership, create a collaborative and inclusive environment, establish goals, plan tasks, meet objectives, using appropriate learning strategies.
 
  *Besides a solid math science/engineering education, I was exposed to application fields such as IoT, Embedded Systems, Networking, Communication, Control Systems, Microwave and Antenna, Basic Electronics and Signal & Image Processing.*
 
-## 2. Masters of Science in Management of Technology from New York University, New York, USA.
+
+<!--## 2. Masters of Science in Management of Technology from New York University, New York, USA.-->
+ <p style="font-family: Georgia, serif;
+ font-size: 20px;
+ letter-spacing: -1.2px;
+ word-spacing: 1.6px;
+ color: #000000;
+ font-weight: normal;
+ font-style: normal;
+ text-align: center;
+ font-variant: small-caps;
+ text-transform: none;"> Masters of Science in Management of Technology from New York University, New York, USA. </p>
+
 *Soon after working fulltime for a year I realized a gap between my technical problem solving skills and Business growing inference.
 To bridge this gap I decided to pursue my Masters and broaden my knowledge and skills in Data exploration, Data Inference and Business Growth strategy building*
 
@@ -69,7 +92,7 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - Developed metrics for data analysis to improve efficiency and quality of the service.
 
 ## Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.
-- Replaced traditional data processing with ETL pipeline to expedite the process by 95%.
+- Replaced traditional data processing with ETL pipeline built on python to expedite the process by 95%.
 - Modeled on power BI using DAX and Power query for dynamic dashboards with performance metrics and important KPIs.
 - Built process flow charts and deliverables timeline analysis to improve the efficiency of the projects.
 - Designed schema and Built a database for sub departments with Microsoft Access and SQL Server.
@@ -82,11 +105,10 @@ research journals and used EndNote to manage citation with international publica
 ## Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India.
 - Analyzed sales for monthly Tableau reports. Proposed strategies resulted in 14% yearly growth and 27% drop in inventory.
 - Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
+- Supervised a team of 4 to put forward cost cutting and marketing strategies; To further boost the Sales and profits.
 
 
 
-## Projects
+## Online Courses
 
 ## Hobbies
-
-Etc, etc, etc
