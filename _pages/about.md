@@ -34,7 +34,7 @@ text-transform: none;"> EDUCATION </p>
 
 
 <p style="font-family: "Times New Roman", Times, serif;
-font-size: 30px;
+font-size: 20px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
 color: #000000;
@@ -60,16 +60,17 @@ text-transform: none;"> B-Tech Electronics and Telecommunication from NMIMS Mumb
 
 <!--## 2. Masters of Science in Management of Technology from New York University, New York, USA.-->
 
- <p style="font-family: "Times New Roman", Times, serif;
- font-size: 20px;
- letter-spacing: -1.2px;
- word-spacing: 1.6px;
- color: #000000;
- font-weight: normal;
- font-style: normal;
- text-align: center;
- font-variant: small-caps;
- text-transform: none;"> Masters of Science in Management of Technology from New York University, New York, USA. </p>
+<p style="font-family: "Times New Roman", Times, serif;
+font-size: 20px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Masters of Science in Management of Technology from New York University, New York, USA. </p>
+
 
 *Soon after working fulltime for a year I realized a gap between my technical problem solving skills and Business growing inference.
 To bridge this gap I decided to pursue my Masters and broaden my knowledge and skills in Data exploration, Data Inference and Business Growth strategy building*
