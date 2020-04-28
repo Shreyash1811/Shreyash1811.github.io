@@ -25,7 +25,6 @@ letter-spacing: -1.2px;
 word-spacing: 1.6px;
 color: #000000;
 font-weight: normal;
-text-decoration: underline solid rgb(68, 68, 68);
 font-style: normal;
 text-align: center;
 font-variant: small-caps;
