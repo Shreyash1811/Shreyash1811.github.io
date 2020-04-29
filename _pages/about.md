@@ -39,10 +39,10 @@ font-style: normal;
 text-align: center;
 font-variant: small-caps;
 text-transform: none;"> Hello, I am Shreyaskumar Kathiriya. </p>
+<a id = "intro"></a>
 I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning.
 I was introduced to data analytics in an Economics course in my under graduation where I got invested in data collection and analysis which concerned with customer behavior analysis, Macro and Micro market impacts, and since then I have completely submerged myself to this unending roller-coaster of learning and practicing concepts of Analytics.
 
-<a id = "intro"></a>
 My journey to pursue Data Science as a career was fueled by my love for solving puzzles as a kid, I relished data analysis as it was akin to a puzzle-solving. since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that excited me the most. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
 
 I was fortunate to get to work with different companies from different industries. From the Manufacturing industry to an IT industry to a non-profit organization. This helped me understand how different organizations have different data requirements with different metrics and statistical approach to tackle their business problems and get desired business outcomes.
