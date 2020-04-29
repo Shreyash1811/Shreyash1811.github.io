@@ -110,7 +110,7 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 
 <a id = "ex"></a>
 <!--!# Work Experience : -->
-<p style="font-family: Times New Roman, Times, serif;
+<p style="font-family: Georgia, serif;
 font-size: 30px;
 letter-spacing: -1.2px;
 word-spacing: 1.6px;
@@ -121,14 +121,34 @@ text-align: center;
 font-variant: small-caps;
 text-transform: none;"> Work Experience </p>
 
-## Business Analyst, New York University IT Operations Technology Services Support.
+<p style="font-family: Times New Roman, Times, serif;
+font-size: 30px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Business Analyst, New York University IT Operations Technology Services Support. </p>
+
 <a id = "ex1"></a>
 - Assisted with the software development lifecycle, from gathering client requirements to training users, testing and documenting newly deployed features and systems. Shipping sustainable solutions addressing complex organizational needs.
 - Integration and System Testing and maintain them using test case management tools like JIRA and Confluence.
 - Performed Data Analysis and validation testing to check accuracy of the 13 million square feet of space data.
 - Developed metrics for data analysis to improve efficiency and quality of the service.
 
-## Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.
+<p style="font-family: Times New Roman, Times, serif;
+font-size: 30px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability. </p>
+
 <a id = "ex2"></a>
 - Replaced traditional data processing with ETL pipeline built on python to expedite the process by 95%.
 - Modeled on power BI using DAX and Power query for dynamic dashboards with performance metrics and important KPIs.
@@ -136,12 +156,32 @@ text-transform: none;"> Work Experience </p>
 - Designed schema and Built a database for sub departments with Microsoft Access and SQL Server.
 - Created Data governance guidelines to ensure quality data collection and reduce data pre-processing time by 70%.
 
-## EndNote Software Citation Assistant, New York University Dentistry.
+<p style="font-family: Times New Roman, Times, serif;
+font-size: 30px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> EndNote Software Citation Assistant, New York University Dentistry. </p>
+
 <a id = "ex3"></a>
 - Scrapped data from google scholar using python to build and maintain a library for citation on endnote. Rectified and formatted
 research journals and used EndNote to manage citation with international publication standards.
 
-## Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India.
+<p style="font-family: Times New Roman, Times, serif;
+font-size: 30px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India. </p>
+
 <a id = "ex4"></a>
 - Analyzed sales for monthly Tableau reports. Proposed strategies resulted in 14% yearly growth and 27% drop in inventory.
 - Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
