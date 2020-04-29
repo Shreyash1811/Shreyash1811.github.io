@@ -4,16 +4,27 @@ permalink: /about/
 header:
   image: "/images/banners/about_banner.jpg"
 ---
-## Table of Content:
+<a id = "top"></a>
+<p style="font-family: Georgia, serif;
+font-size: 30px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Table of Content: </p>
+
 1. [Introduction:](#intro)
 2. [Education:](#edu)
     * [B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.](#edu1)
     * [ Masters of Science in Management of Technology from New York University, New York, USA.](#edu2)
 3. [Work Experience](#ex)
-    1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
-    2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
-    3. [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
-    4. [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
+    - [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
+    - [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
+    - [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
+    - [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
 
 
 
@@ -188,3 +199,5 @@ text-transform: none;"> Data Analyst/ Insights Specialist, Alliance Fiber Ltd, S
 - Analyzed sales for monthly Tableau reports. Proposed strategies resulted in 14% yearly growth and 27% drop in inventory.
 - Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
 - Supervised a team of 4 to put forward cost cutting and marketing strategies; To further boost the Sales and profits.
+
+:point_up:[BACK TO TOP](#top):point_up:
