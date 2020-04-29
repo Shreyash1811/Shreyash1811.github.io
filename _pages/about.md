@@ -28,7 +28,17 @@ text-transform: none;"> Table of Content: </p>
 
 
 
-### Hello, I am Shreyaskumar Kathiriya.
+<a id = "top"></a>
+<p style="font-family: Georgia, serif;
+font-size: 20px;
+letter-spacing: -1.2px;
+word-spacing: 1.6px;
+color: #000000;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+font-variant: small-caps;
+text-transform: none;"> Hello, I am Shreyaskumar Kathiriya. </p>
 I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning.
 I was introduced to data analytics in an Economics course in my under graduation where I got invested in data collection and analysis which concerned with customer behavior analysis, Macro and Micro market impacts, and since then I have completely submerged myself to this unending roller-coaster of learning and practicing concepts of Analytics.
 
