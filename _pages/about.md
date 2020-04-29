@@ -8,10 +8,10 @@ header:
 1. [Introduction:](#intro)
 2. [Education:](#edu)
 3. [Work Experience](#ex)
-    a) [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
-    b) [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
-    c) [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
-    d) [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
+    1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
+    2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
+    3. [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
+    4. [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
 
 
 
