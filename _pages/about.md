@@ -8,12 +8,12 @@ header:
 1. [Introduction:](#intro)
 2. [Education:](#edu)
 3. [Work Experience](#ex)
-    1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
-    2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
-    3. [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
-    4. [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
+    a) [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
+    b) [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
+    c) [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
+    d) [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
 
-Trying a doc from github about a [link](https://github.com/Shreyash1811/Student-Performance-Prediction/blob/master/BA_Project2_Team2.pdf)?  
+
 
 ### Hello, I am Shreyaskumar Kathiriya.
 I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning.
@@ -104,9 +104,9 @@ To bridge this gap I decided to pursue my Masters and broaden my knowledge and s
 - **Data Visualization:** Story telling with aesthetically pleasing Visualization and best practices to narrate a data story to varying audiences.
 - **Data Mining:** Machine Learning concepts and practices used in large organizations to make the best use of growing data availability.
 - **Data Engineering:** Theoretical and practical implementation of Database management and Graph Network theory with business cases in different domains ranging from economics and agriculture to stock market.
-- **Corporate Finance and Accounting:** Advance concepts of Finance and Accounting with financial analysis and modelling on real world case studies dealing with merger and acquisitions and forecast value evaluation.
-- **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior,  economic value creation , Value-based strategies etc.
-- **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects), Management of Information System, Organizational behavior.
+- **Corporate Finance and Accounting:** Advance concepts of Finance and Accounting with financial analysis and modelling on real world case studies dealing with merger and acquisitions and forecast value evaluation. [Case Study](https://github.com/Shreyash1811/Finance_case_study)
+- **Industrial Economics and strategy:** Studied concepts and impacts of Macro & Micro economy, consumer behavior, economic value creation and Value-based strategies. Learned analysis techniques like Five Forces Model, Demand and Supply Analysis, Porter’s Competitive Strategy Framework PEST analysis and SWOT analysis. [Netflix Research Paper](https://github.com/Shreyash1811/Industrial-Economics-and-strategy)
+- **Business Courses:** Project Management (SCRUM Practices and understanding Waterfall and Agile methodologies), Global Innovation (Strategies to manage and coordinate Global projects) [Target Global Business Research Paper](https://github.com/Shreyash1811/Global-Innovation), Management of Information System, Organizational behavior.
 
 <a id = "ex"></a>
 <!--!# Work Experience : -->
