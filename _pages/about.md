@@ -7,6 +7,8 @@ header:
 ## Table of Content:
 1. [Introduction:](#intro)
 2. [Education:](#edu)
+    * [B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.](#edu1)
+    * [ Masters of Science in Management of Technology from New York University, New York, USA.](#edu2)
 3. [Work Experience](#ex)
     1. [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
     2. [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
@@ -65,7 +67,7 @@ text-align: center;
 font-variant: small-caps;
 text-transform: none;"> B-Tech Electronics and Telecommunication from NMIMS Mumbai, India. </p>
 
-
+<a id = "edu1"></a>
  *In four years of my B-tech I learned and grew in key technical areas such as:*
  -  Digital communication techniques
  -  Information theory
@@ -93,7 +95,7 @@ text-align: center;
 font-variant: small-caps;
 text-transform: none;"> Masters of Science in Management of Technology from New York University, New York, USA.</p>
 
-
+<a id = "edu2"></a>
 *Soon after working fulltime for a year I realized a gap between my technical problem solving skills and Business growing inference.
 To bridge this gap I decided to pursue my Masters and broaden my knowledge and skills in Data exploration, Data Inference and Business Growth strategy building*
 
