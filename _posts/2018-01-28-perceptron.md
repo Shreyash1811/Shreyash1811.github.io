@@ -72,7 +72,7 @@ face_location = face_recognition.face_locations(image)
 
  *Lets count faces in the image that face_recognition could recognition*
 
- ```Python
+ ```python
  number_of_faces = len(face_location)
  print('Number of face found are {}'.format(number_of_faces))
  ```
@@ -89,7 +89,7 @@ An image object.
 
 *In the for loop we iterate through each recognized face locations and draw rectangales on them using PIL's extensive drawing methods*
 
-```Python
+```python
 #Creating Image obj
 pil_image =PIL.Image.fromarray(image)
 
@@ -101,8 +101,8 @@ for face_locationn in face_location:
     draw = PIL.ImageDraw.Draw(pil_image)
     draw.rectangle([left,top,right,bottom],outline="red")
 
-```
->A face is located at pixel location Top 184, right 494, bottom 339, left 339
+```python
+A face is located at pixel location Top 184, right 494, bottom 339, left 339
 A face is located at pixel location Top 46, right 391, bottom 108, left 328
 A face is located at pixel location Top 186, right 325, bottom 275, left 235
 A face is located at pixel location Top 5, right 494, bottom 80, left 419
@@ -111,6 +111,7 @@ A face is located at pixel location Top 47, right 320, bottom 121, left 245
 A face is located at pixel location Top 128, right 629, bottom 235, left 521
 A face is located at pixel location Top 155, right 237, bottom 229, left 162
 A face is located at pixel location Top 46, right 239, bottom 108, left 17
+```
 
 #### This looks amazing. This Library could recognize almost all the faces except for the ones barely visible in the picture.
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/rect_face.png" alt="linearly separable data">
@@ -121,11 +122,12 @@ A face is located at pixel location Top 46, right 239, bottom 108, left 17
 - We will use face_landmarks method with the image we stored.
 - Output should be pixel location points for each landmark.
 
- ```Python
+ ```python
 face_landmarks_list = face_recognition.face_landmarks(image)
 face_landmarks_list
  ```
->[{'chin': [(369, 247),(368, 263),(369, 279),(371, 296),(376, 314),(386, 329),(398, 344),(412, 357),(429, 360),(448, 357),
+```python
+[{'chin': [(369, 247),(368, 263),(369, 279),(371, 296),(376, 314),(386, 329),(398, 344),(412, 357),(429, 360),(448, 357),
    (466, 346),
    (483, 334),
    (497, 320),
@@ -177,3 +179,4 @@ face_landmarks_list
    (424, 312),
    (434, 311),
    (461, 297)]},
+```
