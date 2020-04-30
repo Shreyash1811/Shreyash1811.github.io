@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Fun with Face-Recognition"
 date: 2020-03-30
-tags: [data wrangling, data science, messy data]
+tags: [Face Recognition, Data Science]
 header:
   image: "/images/face_rec/titanic.png"
 excerpt: "Face Recognition, Data Science"
@@ -60,7 +60,8 @@ face_location = face_recognition.face_locations(image)
 
 ```
 #### Face_location gives us Top, Right, Bottom and Left points of the face to further use in processing. These numbers are pixels locations in the pictures as shown below.
->[(184, 494, 339, 339),
+```python
+[(184, 494, 339, 339),
  (46, 391, 108, 328),
  (186, 325, 275, 235),
  (5, 494, 80, 419),
@@ -69,6 +70,7 @@ face_location = face_recognition.face_locations(image)
  (128, 629, 235, 521),
  (155, 237, 229, 162),
  (46, 239, 108, 176)]
+```
 
  *Lets count faces in the image that face_recognition could recognition*
 
@@ -100,6 +102,7 @@ for face_locationn in face_location:
     # Drawing Rectangle on each face recognized.
     draw = PIL.ImageDraw.Draw(pil_image)
     draw.rectangle([left,top,right,bottom],outline="red")
+```
 
 ```python
 A face is located at pixel location Top 184, right 494, bottom 339, left 339
@@ -126,6 +129,7 @@ A face is located at pixel location Top 46, right 239, bottom 108, left 17
 face_landmarks_list = face_recognition.face_landmarks(image)
 face_landmarks_list
  ```
+
 ```python
 [{'chin': [(369, 247),(368, 263),(369, 279),(371, 296),(376, 314),(386, 329),(398, 344),(412, 357),(429, 360),(448, 357),
    (466, 346),
@@ -179,4 +183,14 @@ face_landmarks_list
    (424, 312),
    (434, 311),
    (461, 297)]},
+```
+lets try to draw lines on these landmark points for each faces.
+
+```python
+for face_landmarks in face_landmarks_list:
+    for name, list_of_points in face_landmarks.items():
+        print("the {} in this face has the following points: {}".format(name,list_of_points))
+        draw.line(list_of_points, fill= "red",width=2)
+
+pil_image.show()
 ```
