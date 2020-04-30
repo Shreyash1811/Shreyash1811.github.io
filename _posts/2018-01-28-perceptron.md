@@ -184,7 +184,7 @@ face_landmarks_list
    (434, 311),
    (461, 297)]},
 ```
-lets try to draw lines on these landmark points for each faces.
+*lets try to draw lines on these landmark points for each faces.*
 
 ```python
 for face_landmarks in face_landmarks_list:
@@ -194,3 +194,5 @@ for face_landmarks in face_landmarks_list:
 
 pil_image.show()
 ```
+### They look like zombies from zombiland. Well! it did the job.
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/landmark_mark.png" alt="linearly separable data">
