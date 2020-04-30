@@ -3,7 +3,7 @@ title: "Introduction to Fun with Face-Recognition"
 date: 2020-03-30
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/titanic_analysis/titanic.png"
+  image: "/images/face_rec/titanic.png"
 excerpt: "Face Recognition, Data Science"
 mathjax: "true"
 ---
@@ -18,9 +18,9 @@ mathjax: "true"
 
 
 ### In this note we will talk about:
-1. Face Matching: *Find the best match for a given face.*
-2. Face Similarity: *Find faces that are most similar to a given face.*
-3. Face Transformation: *Generate new faces that are similar to a given face.*
+1. **Face Matching:** *Find the best match for a given face.*
+2. **Face Similarity:** *Find faces that are most similar to a given face.*
+3. **Face Transformation:** *Generate new faces that are similar to a given face.*
 
 
 ### Step 1: picking your libraries, installing and Importing them.
@@ -48,9 +48,9 @@ pil_image =PIL.Image.fromarray(image)
 pil_image.show()
 pil_image
 ```
-The picture I am using here is one of the most famous selfies from Oscar awards.
+The picture I am using here is one of the most famous selfies from Oscar awards. What happy faces :smile:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/titanic_analysis/download.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/download.png" alt="linearly separable data">
 
 ### Step 3 - Recognize faces (piece of cake??)
 *Great thing about this package is that it has methods that makes things much easier for an introductory level face recognition. It is fun and does not frustrate someone who is new to face recognition.*
@@ -71,58 +71,109 @@ face_location = face_recognition.face_locations(image)
  (46, 239, 108, 176)]
 
  *Lets count faces in the image that face_recognition could recognition*
+
  ```Python
  number_of_faces = len(face_location)
  print('Number of face found are {}'.format(number_of_faces))
  ```
 > Number of face found are 9
 
+### Step 3 - Convert image file to an object so we can work on it:
+*Creates an image memory from an object exporting the array interface (using the buffer protocol). If obj is not contiguous, then the to bytes method is called and from buffer() is used*
 
+#### Parameters:
+obj – Object with array interface
+mode – Mode to use (will be determined from type if None) See: Modes.
+#### Returns:
+An image object.
 
+*In the for loop we iterate through each recognized face locations and draw rectangales on them using PIL's extensive drawing methods*
 
-Here's some basic text.
+```Python
+#Creating Image obj
+pil_image =PIL.Image.fromarray(image)
 
-And here's some *italics*
+# Looping through each face
+for face_locationn in face_location:
+    top, right, bottom, left = face_locationn
+    print('A face is located at pixel location Top {}, right {}, bottom {}, left {}'.format(top,right,bottom,left))
+    # Drawing Rectangle on each face recognized.
+    draw = PIL.ImageDraw.Draw(pil_image)
+    draw.rectangle([left,top,right,bottom],outline="red")
 
-Here's some **bold** text.
-
-What about a [link](https://github.com/dataoptimal)?
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-import pandas
-
-messages = pandas.read_csv('SMSSpamCollection',sep='\t',names=['labels','message'])
 ```
+>A face is located at pixel location Top 184, right 494, bottom 339, left 339
+A face is located at pixel location Top 46, right 391, bottom 108, left 328
+A face is located at pixel location Top 186, right 325, bottom 275, left 235
+A face is located at pixel location Top 5, right 494, bottom 80, left 419
+A face is located at pixel location Top 68, right 175, bottom 175, left 67
+A face is located at pixel location Top 47, right 320, bottom 121, left 245
+A face is located at pixel location Top 128, right 629, bottom 235, left 521
+A face is located at pixel location Top 155, right 237, bottom 229, left 162
+A face is located at pixel location Top 46, right 239, bottom 108, left 17
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
+#### This looks amazing. This Library could recognize almost all the faces except for the ones barely visible in the picture.
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/rect_face.png" alt="linearly separable data">
 
-Here's some inline code `x+y`.
+### Step 5 - Detecting Face Landmarks:
+*In the code notebook so far we could only recognize the face locations but not the actually characteristics of a face.
+ Our next attempt would be to recognize the location of landmarks (i.e Chin, Left Eyebrows, Right Eyebrows, Nose Bridge, Nose Tip, left eye, right eye, top lip, bottom lip )*
+- We will use face_landmarks method with the image we stored.
+- Output should be pixel location points for each landmark.
 
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-<a id= "try"></a>
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
+ ```Python
+face_landmarks_list = face_recognition.face_landmarks(image)
+face_landmarks_list
+ ```
+>[{'chin': [(369, 247),(368, 263),(369, 279),(371, 296),(376, 314),(386, 329),(398, 344),(412, 357),(429, 360),(448, 357),
+   (466, 346),
+   (483, 334),
+   (497, 320),
+   (505, 303),
+   (506, 283),
+   (505, 263),
+   (504, 243)],
+  'left_eyebrow': [(370, 235), (372, 223), (381, 219), (393, 218), (404, 221)],
+  'right_eyebrow': [(427, 220),
+   (443, 215),
+   (458, 214),
+   (472, 218),
+   (482, 228)],
+  'nose_bridge': [(416, 234), (416, 245), (415, 256), (415, 268)],
+  'nose_tip': [(404, 276), (411, 279), (418, 281), (427, 278), (435, 275)],
+  'left_eye': [(381, 242),
+   (387, 237),
+   (394, 237),
+   (402, 240),
+   (395, 241),
+   (387, 242)],
+  'right_eye': [(441, 239),
+   (449, 234),
+   (456, 234),
+   (464, 238),
+   (457, 239),
+   (449, 239)],
+  'top_lip': [(394, 298),
+   (405, 296),
+   (414, 295),
+   (423, 297),
+   (433, 295),
+   (449, 294),
+   (465, 296),
+   (461, 297),
+   (433, 298),
+   (423, 300),
+   (415, 299),
+   (399, 299)],
+  'bottom_lip': [(465, 296),
+   (451, 312),
+   (436, 319),
+   (425, 320),
+   (415, 320),
+   (405, 313),
+   (394, 298),
+   (399, 299),
+   (415, 311),
+   (424, 312),
+   (434, 311),
+   (461, 297)]},
