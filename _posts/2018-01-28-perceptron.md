@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Fun with Face-Recognition"
-date: 2018-01-28
+date: 2020-03-30
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/titanic_analysis/titanic.png"
@@ -18,9 +18,9 @@ mathjax: "true"
 
 
 ### In this note we will talk about:
-### - Face Matching: *Find the best match for a given face.*
-### - Face Similarity: *Find faces that are most similar to a given face.*
-### - Face Transformation: *Generate new faces that are similar to a given face.*
+1. Face Matching: *Find the best match for a given face.*
+2. Face Similarity: *Find faces that are most similar to a given face.*
+3. Face Transformation: *Generate new faces that are similar to a given face.*
 
 
 ### Step 1: picking your libraries, installing and Importing them.
@@ -52,8 +52,30 @@ The picture I am using here is one of the most famous selfies from Oscar awards.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/titanic_analysis/download.png" alt="linearly separable data">
 
+### Step 3 - Recognize faces (piece of cake??)
+*Great thing about this package is that it has methods that makes things much easier for an introductory level face recognition. It is fun and does not frustrate someone who is new to face recognition.*
+```python
+# Locating the faces in the image
+face_location = face_recognition.face_locations(image)
 
+```
+#### Face_location gives us Top, Right, Bottom and Left points of the face to further use in processing. These numbers are pixels locations in the pictures as shown below.
+>[(184, 494, 339, 339),
+ (46, 391, 108, 328),
+ (186, 325, 275, 235),
+ (5, 494, 80, 419),
+ (68, 175, 175, 67),
+ (47, 320, 121, 245),
+ (128, 629, 235, 521),
+ (155, 237, 229, 162),
+ (46, 239, 108, 176)]
 
+ *Lets count faces in the image that face_recognition could recognition*
+ ```Python
+ number_of_faces = len(face_location)
+ print('Number of face found are {}'.format(number_of_faces))
+ ```
+> Number of face found are 9
 
 
 
