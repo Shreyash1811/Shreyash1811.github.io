@@ -275,11 +275,11 @@ for unknown_encoding in unknow_face_encoding:
 
 *Our code matches unknown image 1 to be person 2, lets see if it is correct*
 
-###Unknown Image
+**Unknown Image:**
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/unknown_1.jpg" alt="linearly separable data">
 
-###Person Image
+**Person Image:**
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/person_2.jpg" alt="linearly separable data">
 
