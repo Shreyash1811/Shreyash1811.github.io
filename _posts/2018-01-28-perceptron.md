@@ -194,5 +194,87 @@ for face_landmarks in face_landmarks_list:
 
 pil_image.show()
 ```
-### They look like zombies from zombiland. Well! it did the job.
+### They look like zombies from zombiland. Well! it did the job at least.
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/landmark_mark.png" alt="linearly separable data">
+
+# Face Recognition and Matching:
+*This was all about playing around with the faces. How about some recognizing similar faces using pixel matching techniques.*
+## Step 1: Encoding the image.
+*Since Images are pixel points and it can get really difficult to manipulate them in their raw form.*
+- Encode the Image such that we have information on each pixel in a more workable mathematical representation.
+- We will use face_encoding method to encode the images.
+```python
+#Encoding the image.
+face_encoded = face_recognition.face_encodings(image)
+
+if len(face_encoded) == 0:
+    print("there is no face")
+else:
+    first_face_encoding = face_encoded[0]
+    print(first_face_encoding)
+```
+*Expect an output with array of numbers reperesntation of Image we encoded as shown below*
+```python
+[-2.47579083e-01  7.29503706e-02  8.54542255e-02 -2.40019821e-02
+ -8.91461521e-02  3.61719504e-02  7.91041255e-02  3.36378478e-02
+  2.31346667e-01 -3.04129049e-02  1.52322352e-01 -5.63380346e-02
+ -2.69292295e-01  5.37429005e-03 -4.55064327e-02  9.71197858e-02
+ -1.36848509e-01 -1.02482304e-01 -1.80513084e-01 -6.74042106e-02
+  2.53426284e-02  6.72162175e-02  2.11295076e-02  4.21013311e-02
+ -1.19355015e-01 -3.58677238e-01 -5.32349721e-02 -1.95801377e-01
+  1.10595495e-01 -1.47833824e-01  3.26224416e-02  3.66484113e-02
+ -1.82484999e-01 -1.13388374e-01 -2.07062904e-02  7.75643960e-02
+ -7.62411803e-02 -7.32168108e-02  2.84501433e-01 -3.07528302e-03
+```
+## Step 2: Lets use some face images to try to match them and recognize them.
+*Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures.
+
+```python
+# Loading Pictues
+face1 = face_recognition.load_image_file("../input/recognition/person_1.jpg")
+face2 = face_recognition.load_image_file("../input/recognition/person_2.jpg")
+face3 = face_recognition.load_image_file("../input/recognition/person_3.jpg")
+# Encoding Pictues
+person_face1 = face_recognition.face_encodings(face1)
+person_face2 = face_recognition.face_encodings(face2)
+person_face3 = face_recognition.face_encodings(face3)
+
+# Putting tagged encodings in an array together
+known_face_encoding =[person_face1,person_face2, person_face3]
+
+#Loading Unknown/untagged images
+unknown_image = face_recognition.load_image_file("../input/recognition/unknown_1.jpg")
+```
+## Step 3: Face landmark location.
+*Since our untagged pictures can have multiple people in it unlike tagged pictures, we will first run face location method to locate all the faces in the pictures before we encode each face*
+
+```python
+# Face location of Untagged pictures
+face_location = face_recognition.face_locations(unknown_image, number_of_times_to_upsample=2)
+# Face encoding of those each faces
+unknow_face_encoding = face_recognition.face_encodings(unknown_image,known_face_locations=face_location)
+```
+## Step 4: Comparing Face encoding of known images with Unknown images.
+```python
+for unknown_encoding in unknow_face_encoding:
+    results = face_recognition.compare_faces(known_face_encoding,unknown_encoding)
+
+    name ='unknown'
+    if results[0].all():
+        name = 'person 1'
+    elif results[1].all():
+        name = 'person 2'
+    elif results[2].all():
+        name = 'person 3'
+    print(name)
+```
+> person 2
+
+*Our code matches unknown image 1 to be person 2, lets see if it is correct*
+###Unknown Image
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/unknown_1.png" alt="linearly separable data">
+###Person Image
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/person_2.png" alt="linearly separable data">
+
+## Amazing!! our code matched the person in the picture correctly. 
