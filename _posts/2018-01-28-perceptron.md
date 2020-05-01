@@ -199,6 +199,7 @@ pil_image.show()
 *Since Images are pixel points and it can get really difficult to manipulate them in their raw form.*
 - Encode the Image such that we have information on each pixel in a more workable mathematical representation.
 - We will use face_encoding method to encode the images.
+
 ```python
 #Encoding the image.
 face_encoded = face_recognition.face_encodings(image)
@@ -225,7 +226,9 @@ else:
 ```
 ## Step 2: Lets use some face images to try to match them and recognize them.
 *Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures. As Shown below*
-img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/pic_collage.png" alt="linearly separable data">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/pic_collage.png" alt="linearly separable data">
+
 ```python
 # Loading Pictues
 face1 = face_recognition.load_image_file("../input/recognition/person_1.jpg")
