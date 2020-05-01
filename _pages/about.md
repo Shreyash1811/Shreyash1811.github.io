@@ -40,14 +40,13 @@ text-align: center;
 font-variant: small-caps;
 text-transform: none;"> Hello, I am Shreyaskumar Kathiriya. </p>
 <a id = "intro"></a>
-I am a Data Science Enthusiast with curiosity to look beyond what's known and hunger for learning.
-I was introduced to data analytics in an Economics course in my under graduation where I got invested in data collection and analysis which concerned with customer behavior analysis, Macro and Micro market impacts, and since then I have completely submerged myself to this unending roller-coaster of learning and practicing concepts of Analytics.
+I am a Data Science enthusiast with a curiosity to look beyond the known and a hunger for learning. I was introduced to data analytics in an Economics course in my under graduation where I got invested in data collection and analysis which was majorly concerned with customer behavior analysis, macro and micro market impacts. Since then I have completely submerged myself into this exciting and unending roller-coaster of learning and practicing concepts of Analytics.
 
-My journey to pursue Data Science as a career was fueled by my love for solving puzzles as a kid, I relished data analysis as it was akin to a puzzle-solving. since then I have completely submerged myself to this unending roller-coaster. As much as I enjoy data manipulation and management, it is the analysis of that raw data that excited me the most. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
+As a kid, I loved solving puzzles and as I grew up, I found my love naturally shift to data analytics as it is akin to puzzle-solving. This led me to embark on my journey in the field of Data Science. As much as I enjoy data manipulation and management, it is the analysis of that raw data that excites me the most. It’s fascinating how some raw, meaningless numbers can give so much vital information, when put together right, read and represented correctly.
 
-I was fortunate to get to work with different companies from different industries. From the Manufacturing industry to an IT industry to a non-profit organization. This helped me understand how different organizations have different data requirements with different metrics and statistical approach to tackle their business problems and get desired business outcomes.
+I was fortunate enough to get an opportunity to work with different companies from different industries. From a manufacturing industry to an IT industry to a non-profit organization. This helped me understand how various kinds of organizations have different data requirements with different metrics and statistical approach to tackle their business problems and get desired business solutions.
 
-I have worked in projects involving Data collection(web scraping), Database Management, Data wrangling, Data Analysis, Data cleaning, Data Visualization, Exploratory Data Analysis, Business Intelligence dashboards and Data Mining and Machine Learning concepts like Supervised and Unsupervised Modeling, Image and face Recognition, Hyperparameter Tuning, Feature selection/engineering, Recommendation System etc.
+I have worked in projects involving Data collection(web scraping), Database Management, Data wrangling, Data Analysis, Data cleaning, Data Visualization, Exploratory Data Analysis, Business Intelligence dashboards and Data Mining. They also involved Machine Learning concepts like Supervised and Unsupervised Modeling, Image and Face Recognition, Hyperparameter Tuning, Feature selection/engineering, Recommendation System etc.
 
 **These projects helped me grow my knowledge in tools and scripting languages like:**
 
