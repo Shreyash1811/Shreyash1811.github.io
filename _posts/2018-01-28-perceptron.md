@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Fun with Face-Recognition"
 date: 2020-03-30
-tags: [Face Recognition, Data Science]
+tags: [Face Recognition]
 header:
   image: "/images/face_rec/face_header.jpg"
 excerpt: "Face Recognition"
