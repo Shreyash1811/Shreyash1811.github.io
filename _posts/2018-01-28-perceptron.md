@@ -229,6 +229,7 @@ else:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/pic_collage.png" alt="linearly separable data">
 
+
 ```python
 # Loading Pictues
 face1 = face_recognition.load_image_file("../input/recognition/person_1.jpg")
