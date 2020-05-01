@@ -306,4 +306,5 @@ for face_landmark in face_landmarks:
 pil_image.show()
 pil_image
 ```
+*This will break some laughter for you when you use it to prank your friends with* :joy:
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/makup_face.png" alt="linearly separable data">
