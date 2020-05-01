@@ -227,7 +227,7 @@ else:
 ## Step 2: Lets use some face images to try to match them and recognize them.
 *Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures. As Shown below*
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/pic_collage.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/data_pic.png" alt="linearly separable data">
 
 
 ```python
