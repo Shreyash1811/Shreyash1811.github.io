@@ -4,7 +4,7 @@ date: 2020-03-30
 tags: [Face Recognition, Data Science]
 header:
   image: "/images/face_rec/titanic.png"
-excerpt: "Face Recognition, Data Science"
+excerpt: "Face Recognition"
 mathjax: "true"
 ---
 ## Table of Content:
@@ -215,6 +215,7 @@ else:
     print(first_face_encoding)
 ```
 *Expect an output with array of numbers reperesntation of Image we encoded as shown below*
+
 ```python
 [-2.47579083e-01  7.29503706e-02  8.54542255e-02 -2.40019821e-02
  -8.91461521e-02  3.61719504e-02  7.91041255e-02  3.36378478e-02
@@ -228,7 +229,7 @@ else:
  -7.62411803e-02 -7.32168108e-02  2.84501433e-01 -3.07528302e-03
 ```
 ## Step 2: Lets use some face images to try to match them and recognize them.
-*Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures.
+*Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures.*
 
 ```python
 # Loading Pictues
@@ -273,8 +274,8 @@ for unknown_encoding in unknow_face_encoding:
 
 *Our code matches unknown image 1 to be person 2, lets see if it is correct*
 ###Unknown Image
-<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/unknown_1.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/unknown_1.jpg" alt="linearly separable data">
 ###Person Image
-<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/person_2.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/person_2.jpg" alt="linearly separable data">
 
-## Amazing!! our code matched the person in the picture correctly. 
+## Amazing!! our code matched the person in the picture correctly.
