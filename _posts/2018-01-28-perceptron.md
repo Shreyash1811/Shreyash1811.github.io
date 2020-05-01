@@ -229,8 +229,8 @@ else:
  -7.62411803e-02 -7.32168108e-02  2.84501433e-01 -3.07528302e-03
 ```
 ## Step 2: Lets use some face images to try to match them and recognize them.
-*Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures.*
-
+*Here I used 3 tagged images with 3 different people in it and later I use 8 other untagged pictures with these same 3 people in it to match them with the tagged pictures. As Shown below*
+img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/pic_collage.png" alt="linearly separable data">
 ```python
 # Loading Pictues
 face1 = face_recognition.load_image_file("../input/recognition/person_1.jpg")
@@ -270,6 +270,7 @@ for unknown_encoding in unknow_face_encoding:
         name = 'person 3'
     print(name)
 ```
+## Output From the above code
 > person 2
 
 *Our code matches unknown image 1 to be person 2, lets see if it is correct*
@@ -279,3 +280,31 @@ for unknown_encoding in unknow_face_encoding:
 <img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/face_rec_pic/person_2.jpg" alt="linearly separable data">
 
 ## Amazing!! our code matched the person in the picture correctly.
+
+## Final Fun excercise with what we learned so far:
+*Lets try to put some makeup on the faces with the location arrays we can get using Face_recognition Library*
+```python
+#Importing main libraries
+from PIL import Image , ImageDraw
+# Loading images
+unknown_image = face_recognition.load_image_file("../input/recognition/unknown_6.jpg")
+# Landmark location on the face
+face_landmarks = face_recognition.face_landmarks(unknown_image)
+# Back to pil_image object from arrays
+pil_image = Image.fromarray(unknown_image)
+# Creating a draw obj using ImageDraw module
+d = ImageDraw.Draw(pil_image,'RGBA')
+
+# Here we will draw on these locations using fill color
+for face_landmark in face_landmarks:
+
+    d.line(face_landmark["left_eyebrow"],fill = (128,0,128,100), width=3)
+    d.line(face_landmark["right_eyebrow"],fill = (128,0,128,100), width=3)
+
+    d.polygon(face_landmark["top_lip"],fill=(128,0,128,100))  
+    d.polygon(face_landmark["bottom_lip"],fill=(128,0,128,100))  
+
+pil_image.show()
+pil_image
+```
+img src="{{ site.url }}{{ site.baseurl }}/images/face_rec/makeup_face.png" alt="linearly separable data">
