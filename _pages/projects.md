@@ -2,6 +2,8 @@
 title: "Projects"
 permalink: /projects/
 date: 2020-02-10
+header:
+  image: "/images/banners/project_nav.jpg"
 ---
 
 ## 2019
