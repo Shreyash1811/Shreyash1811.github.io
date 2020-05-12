@@ -210,4 +210,4 @@ text-transform: none;"> Data Analyst/ Insights Specialist, Alliance Fiber Ltd, S
 - Processed live sensor data from processing plant to look for delays between processes, expedite the process by ~22%.
 - Supervised a team of 4 to put forward cost cutting and marketing strategies; To further boost the Sales and profits.
 
-                                                    :point_up: [BACK TO TOP](#top) :point_up:
+                                                    [BACK TO TOP](#top)
