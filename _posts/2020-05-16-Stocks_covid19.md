@@ -620,7 +620,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_32_0.png)
+![png](/images/stocks_covid/output_32_0.png)
 
 
 ### Top 10 Sectors that got the worst hit due to Covid-19:
