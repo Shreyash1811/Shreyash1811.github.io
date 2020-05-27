@@ -1,13 +1,13 @@
 ---
 title: "Markup: HTML Tags and Formatting"
-date: 2020-05-17
+date: 2020-05-22
 tags: [Markup]
 header:
   image: "/images/titanic_analysis/percept.jpg"
 excerpt: "Editing style"
 mathjax: "true"
 ---
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_111_0.png" alt="linearly separable data">
 A variety of common markup showing how the theme styles them.
 
 ## Header two

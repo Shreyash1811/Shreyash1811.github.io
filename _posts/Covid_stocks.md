@@ -1868,7 +1868,6 @@ plt.tick_params('both', labelsize='15',colors="black",color ='black')
 plt.tight_layout()
 plt.grid(False)
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
-#plt.savefig(r'C:\Users\shrey\OneDrive\Desktop\Data Engineering\Graph for Project\Corona Cases Deaths Recovered.png')
 ```
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_111_0.png" alt="linearly separable data">
