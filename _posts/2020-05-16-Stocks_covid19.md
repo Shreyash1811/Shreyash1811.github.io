@@ -7,6 +7,40 @@ header:
 excerpt: "Data Analysis"
 mathjax: "true"
 ---
+# Impact on S&P 500 companies with Covid 19:
+
+### What is s&p 500?
+*The S&P 500 stock market index, maintained by S&P Dow Jones Indices, comprises 505 common stocks issued by 500 large-cap companies and traded on American stock exchanges (including the 30 companies that compose the Dow Jones Industrial Average), and covers about 80 percent of the American equity market*
+
+
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+```
+
+
+```python
+plt.style.use('fivethirtyeight')
+```
+
+## PART-1 of Data Acquisition:
+For this analysis we will take data of s&p 500 companies from wikipedia as it contains very useful attributes of these companies.
+
+### Requesting data from Wikipedia list of 500 companies
+
+
+```python
+url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
+
+stocks_df = pd.read_html(url, header=0)[0]
+
+stocks_df.head()
+```
+
+
+
+
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -102,38 +136,6 @@ mathjax: "true"
 </div>
 
 
-# Impact on S&P 500 companies with Covid 19:
-
-### What is s&p 500?
-*The S&P 500 stock market index, maintained by S&P Dow Jones Indices, comprises 505 common stocks issued by 500 large-cap companies and traded on American stock exchanges (including the 30 companies that compose the Dow Jones Industrial Average), and covers about 80 percent of the American equity market*
-
-
-```python
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
-
-
-```python
-plt.style.use('fivethirtyeight')
-```
-
-## PART-1 of Data Acquisition:
-For this analysis we will take data of s&p 500 companies from wikipedia as it contains very useful attributes of these companies.
-
-### Requesting data from Wikipedia list of 500 companies
-
-
-```python
-url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-
-stocks_df = pd.read_html(url, header=0)[0]
-
-stocks_df.head()
-```
-
-
 
 
 ```python
@@ -153,6 +155,102 @@ len(stocks_df)
 stocks_df[stocks_df['Security'].str.contains("Class")].head(5)
 ```
 
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Symbol</th>
+      <th>Security</th>
+      <th>SEC filings</th>
+      <th>GICS Sector</th>
+      <th>GICS Sub Industry</th>
+      <th>Headquarters Location</th>
+      <th>Date first added</th>
+      <th>CIK</th>
+      <th>Founded</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>23</th>
+      <td>GOOGL</td>
+      <td>Alphabet Inc. (Class A)</td>
+      <td>reports</td>
+      <td>Communication Services</td>
+      <td>Interactive Media &amp; Services</td>
+      <td>Mountain View, California</td>
+      <td>2014-04-03</td>
+      <td>1652044</td>
+      <td>1998</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>GOOG</td>
+      <td>Alphabet Inc. (Class C)</td>
+      <td>reports</td>
+      <td>Communication Services</td>
+      <td>Interactive Media &amp; Services</td>
+      <td>Mountain View, California</td>
+      <td>2006-04-03</td>
+      <td>1652044</td>
+      <td>1998</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>DISCA</td>
+      <td>Discovery, Inc. (Class A)</td>
+      <td>reports</td>
+      <td>Communication Services</td>
+      <td>Broadcasting</td>
+      <td>Silver Spring, Maryland</td>
+      <td>2010-03-01</td>
+      <td>1437107</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>DISCK</td>
+      <td>Discovery, Inc. (Class C)</td>
+      <td>reports</td>
+      <td>Communication Services</td>
+      <td>Broadcasting</td>
+      <td>Silver Spring, Maryland</td>
+      <td>2014-08-07</td>
+      <td>1437107</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>FOXA</td>
+      <td>Fox Corporation (Class A)</td>
+      <td>reports</td>
+      <td>Communication Services</td>
+      <td>Movies &amp; Entertainment</td>
+      <td>New York, New York</td>
+      <td>2013-07-01</td>
+      <td>1308161</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
@@ -325,6 +423,165 @@ stocks_df.loc[stocks_df["2020-01-01"] == "NA"]
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Symbol</th>
+      <th>Security</th>
+      <th>SEC filings</th>
+      <th>GICS Sector</th>
+      <th>GICS Sub Industry</th>
+      <th>Headquarters Location</th>
+      <th>Date first added</th>
+      <th>CIK</th>
+      <th>Founded</th>
+      <th>2019-12-01</th>
+      <th>2020-01-01</th>
+      <th>2020-02-01</th>
+      <th>2020-03-01</th>
+      <th>2020-04-01</th>
+      <th>2020-05-01</th>
+      <th>Volume</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>67</th>
+      <td>BRK.B</td>
+      <td>Berkshire Hathaway</td>
+      <td>reports</td>
+      <td>Financials</td>
+      <td>Multi-Sector Holdings</td>
+      <td>Omaha, Nebraska</td>
+      <td>2010-02-16</td>
+      <td>1067983</td>
+      <td>NaN</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>79</th>
+      <td>BF.B</td>
+      <td>Brown-Forman Corp.</td>
+      <td>reports</td>
+      <td>Consumer Staples</td>
+      <td>Distillers &amp; Vintners</td>
+      <td>Louisville, Kentucky</td>
+      <td>1982-10-31</td>
+      <td>14693</td>
+      <td>NaN</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>88</th>
+      <td>CARR</td>
+      <td>Carrier Global</td>
+      <td>reports</td>
+      <td>Industrials</td>
+      <td>Building Products</td>
+      <td>Palm Beach Gardens, Florida</td>
+      <td>2020-04-03</td>
+      <td>1783180</td>
+      <td>NaN</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>239</th>
+      <td>HWM</td>
+      <td>Howmet Aerospace</td>
+      <td>reports</td>
+      <td>Industrials</td>
+      <td>Aerospace &amp; Defense</td>
+      <td>New York, New York</td>
+      <td>1964-03-31</td>
+      <td>4281</td>
+      <td>2016</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>361</th>
+      <td>OTIS</td>
+      <td>Otis Worldwide</td>
+      <td>reports</td>
+      <td>Industrials</td>
+      <td>Industrial Machinery</td>
+      <td>Farmington, Connecticut</td>
+      <td>2020-04-03</td>
+      <td>1781335</td>
+      <td>NaN</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>447</th>
+      <td>TT</td>
+      <td>Trane Technologies plc</td>
+      <td>reports</td>
+      <td>Industrials</td>
+      <td>Building Products</td>
+      <td>Dublin, Ireland</td>
+      <td>2010-11-17</td>
+      <td>1466258</td>
+      <td>NaN</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 #### Lets save the data locally so that we dont have to retrieve and join them over and over again.
 
 
@@ -362,8 +619,8 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 #plt.savefig(r'C:\Users\shrey\OneDrive\Desktop\Data Engineering\Graph for Project\% change in Stocks from Dec 19 to May 20.png')
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_32_0.png" alt="linearly separable data">
 
+![png](output_32_0.png)
 
 
 ### Top 10 Sectors that got the worst hit due to Covid-19:
@@ -435,12 +692,8 @@ plt.tight_layout()
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_38_0.png" alt="linearly separable data">
 
-
-
-
-
+![png](output_38_0.png)
 
 
 ## Time series analysis on Covid Cases:
@@ -547,6 +800,92 @@ full_df.head()
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>count</th>
+      <th>country</th>
+      <th>coordinates</th>
+      <th>country_code</th>
+      <th>province</th>
+      <th>data_type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-01-22</td>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>{'lat': '33.0', 'long': '65.0'}</td>
+      <td>AF</td>
+      <td></td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-01-23</td>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>{'lat': '33.0', 'long': '65.0'}</td>
+      <td>AF</td>
+      <td></td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-01-24</td>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>{'lat': '33.0', 'long': '65.0'}</td>
+      <td>AF</td>
+      <td></td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-01-25</td>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>{'lat': '33.0', 'long': '65.0'}</td>
+      <td>AF</td>
+      <td></td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-01-26</td>
+      <td>0</td>
+      <td>Afghanistan</td>
+      <td>{'lat': '33.0', 'long': '65.0'}</td>
+      <td>AF</td>
+      <td></td>
+      <td>confirmed</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 ### Grouping data by country:
 - Collecting aggregates for deaths, Confirmed cases and recovered.
 
@@ -591,6 +930,74 @@ merged_covid_Df.reset_index(inplace=True)
 # Preview of the dataframe
 merged_covid_Df.head(5)
 ```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>country</th>
+      <th>sum_confirmed</th>
+      <th>sum_death</th>
+      <th>sum_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>173405</td>
+      <td>4449</td>
+      <td>19717</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Albania</td>
+      <td>40224</td>
+      <td>1596</td>
+      <td>24885</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Algeria</td>
+      <td>231373</td>
+      <td>22615</td>
+      <td>102427</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Andorra</td>
+      <td>40810</td>
+      <td>2168</td>
+      <td>20075</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Angola</td>
+      <td>1822</td>
+      <td>127</td>
+      <td>488</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 
 
@@ -645,6 +1052,104 @@ merged_covid_Df.head()
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Region Extended</th>
+      <th>GDP 2018 ($)</th>
+      <th>Statusof Schools</th>
+      <th>Population in age range 50-100</th>
+      <th>country</th>
+      <th>sum_confirmed</th>
+      <th>sum_death</th>
+      <th>sum_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>South Asia</td>
+      <td>2.700559e+09</td>
+      <td>Closed</td>
+      <td>3484.074</td>
+      <td>Afghanistan</td>
+      <td>173405</td>
+      <td>4449</td>
+      <td>19717</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Albania</td>
+      <td>Europe &amp; Central Asia</td>
+      <td>1.936297e+10</td>
+      <td>Closed</td>
+      <td>995.719</td>
+      <td>Albania</td>
+      <td>40224</td>
+      <td>1596</td>
+      <td>24885</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Algeria</td>
+      <td>Middle East &amp; North Africa</td>
+      <td>1.057510e+11</td>
+      <td>Closed</td>
+      <td>8144.237</td>
+      <td>Algeria</td>
+      <td>231373</td>
+      <td>22615</td>
+      <td>102427</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Andorra</td>
+      <td>Europe &amp; Central Asia</td>
+      <td>3.236544e+09</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Andorra</td>
+      <td>40810</td>
+      <td>2168</td>
+      <td>20075</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Angola</td>
+      <td>Sub-Saharan Africa</td>
+      <td>2.774315e+12</td>
+      <td>Closed</td>
+      <td>2666.820</td>
+      <td>Angola</td>
+      <td>1822</td>
+      <td>127</td>
+      <td>488</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 ## Clustering of countries with the data points on covid and census data:
 
 
@@ -691,6 +1196,97 @@ cluster_df['Region Extended'] = cluster_df["Region Extended"].cat.codes
 ```python
 cluster_df.head(5)
 ```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Region Extended</th>
+      <th>GDP 2018 ($)</th>
+      <th>Statusof Schools</th>
+      <th>Population in age range 50-100</th>
+      <th>sum_confirmed</th>
+      <th>sum_death</th>
+      <th>sum_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Afghanistan</td>
+      <td>5</td>
+      <td>2.700559e+09</td>
+      <td>0</td>
+      <td>3484.074</td>
+      <td>173405</td>
+      <td>4449</td>
+      <td>19717</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Albania</td>
+      <td>1</td>
+      <td>1.936297e+10</td>
+      <td>0</td>
+      <td>995.719</td>
+      <td>40224</td>
+      <td>1596</td>
+      <td>24885</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Algeria</td>
+      <td>3</td>
+      <td>1.057510e+11</td>
+      <td>0</td>
+      <td>8144.237</td>
+      <td>231373</td>
+      <td>22615</td>
+      <td>102427</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Andorra</td>
+      <td>1</td>
+      <td>3.236544e+09</td>
+      <td>-1</td>
+      <td>NaN</td>
+      <td>40810</td>
+      <td>2168</td>
+      <td>20075</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Angola</td>
+      <td>6</td>
+      <td>2.774315e+12</td>
+      <td>0</td>
+      <td>2666.820</td>
+      <td>1822</td>
+      <td>127</td>
+      <td>488</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
 
@@ -830,6 +1426,91 @@ scaled_df_cluster.head()
 
 
 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Region Extended</th>
+      <th>GDP 2018 ($)</th>
+      <th>Statusof Schools</th>
+      <th>Population in age range 50-100</th>
+      <th>sum_confirmed</th>
+      <th>sum_death</th>
+      <th>sum_recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.833333</td>
+      <td>0.000049</td>
+      <td>0.25</td>
+      <td>0.007332</td>
+      <td>0.014863</td>
+      <td>0.002898</td>
+      <td>0.002944</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.166667</td>
+      <td>0.000356</td>
+      <td>0.25</td>
+      <td>0.002060</td>
+      <td>0.003447</td>
+      <td>0.001040</td>
+      <td>0.003716</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.500000</td>
+      <td>0.001950</td>
+      <td>0.25</td>
+      <td>0.017207</td>
+      <td>0.019832</td>
+      <td>0.014730</td>
+      <td>0.015294</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.000000</td>
+      <td>0.051180</td>
+      <td>0.25</td>
+      <td>0.005601</td>
+      <td>0.000155</td>
+      <td>0.000083</td>
+      <td>0.000073</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.333333</td>
+      <td>0.007640</td>
+      <td>0.25</td>
+      <td>0.000006</td>
+      <td>0.000110</td>
+      <td>0.000089</td>
+      <td>0.000085</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 ## Making Clusters :
 
 
@@ -885,6 +1566,116 @@ cluster_pca_data
 
 
 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>pca_1</th>
+      <th>pca_2</th>
+      <th>country</th>
+      <th>K-means Cluster Labels</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-0.348706</td>
+      <td>0.018476</td>
+      <td>Afghanistan</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.300912</td>
+      <td>-0.130703</td>
+      <td>Albania</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-0.020217</td>
+      <td>-0.038411</td>
+      <td>Algeria</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-0.515938</td>
+      <td>0.036884</td>
+      <td>Angola</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0.136985</td>
+      <td>-0.099933</td>
+      <td>Antigua and Barbuda</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>0.527647</td>
+      <td>0.952394</td>
+      <td>United Kingdom</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>0.302074</td>
+      <td>-0.125504</td>
+      <td>Uzbekistan</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>-0.025728</td>
+      <td>-0.064047</td>
+      <td>Yemen</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>-0.514466</td>
+      <td>0.040480</td>
+      <td>Zambia</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>-0.514651</td>
+      <td>0.039656</td>
+      <td>Zimbabwe</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>156 rows × 4 columns</p>
+</div>
+
+
+
 ### Visualizing the clusters:
 
 
@@ -932,8 +1723,8 @@ plt.grid(False)
 plt.savefig(r"C:\Users\shrey\OneDrive\Desktop\dendogram.png", format='png', bbox_inches='tight',transparent =True )
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_96_0.png" alt="linearly separable data">
 
+![png](output_96_0.png)
 
 
 ## Insights on Demographics and Covid cases with Regions:
@@ -952,8 +1743,8 @@ plt.tight_layout()
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_98_0.png" alt="linearly separable data">
 
+![png](output_98_0.png)
 
 
 
@@ -976,8 +1767,8 @@ plt.xlabel("Global Regions", fontsize = 18)
 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_99_1.png" alt="linearly separable data">
 
+![png](output_99_1.png)
 
 
 
@@ -997,8 +1788,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_100_0.png" alt="linearly separable data">
-
+![png](output_100_0.png)
 
 
 ## Time Series analysis for Corona cases:
@@ -1045,6 +1835,72 @@ country_time_series("Afghanistan").tail(3)
 ```
 
 
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>confirmed_count</th>
+      <th>country_code</th>
+      <th>province</th>
+      <th>death_count</th>
+      <th>recovered_count</th>
+      <th>country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>122</th>
+      <td>2020-05-23</td>
+      <td>9998</td>
+      <td>AF</td>
+      <td></td>
+      <td>216</td>
+      <td>1040</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>2020-05-24</td>
+      <td>10582</td>
+      <td>AF</td>
+      <td></td>
+      <td>218</td>
+      <td>1075</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>2020-05-25</td>
+      <td>11173</td>
+      <td>AF</td>
+      <td></td>
+      <td>219</td>
+      <td>1097</td>
+      <td>Afghanistan</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
 ## Aggregating data by dates to see global trend in cases:
 
 
@@ -1061,6 +1917,74 @@ df_timeseries.reset_index(inplace = True)
 # Preview
 df_timeseries.head()
 ```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>count_death</th>
+      <th>count_recovered</th>
+      <th>count_confirmed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2020-01-22</td>
+      <td>18513</td>
+      <td>30492</td>
+      <td>596779</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2020-01-23</td>
+      <td>19602</td>
+      <td>32670</td>
+      <td>700238</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2020-01-24</td>
+      <td>28314</td>
+      <td>39204</td>
+      <td>1002141</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2020-01-25</td>
+      <td>45738</td>
+      <td>42471</td>
+      <td>1531522</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2020-01-26</td>
+      <td>60984</td>
+      <td>53364</td>
+      <td>2260343</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 
 
@@ -1085,10 +2009,11 @@ plt.tick_params('both', labelsize='15',colors="black",color ='black')
 plt.tight_layout()
 plt.grid(False)
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
+#plt.savefig(r'C:\Users\shrey\OneDrive\Desktop\Data Engineering\Graph for Project\Corona Cases Deaths Recovered.png')
 ```
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_111_0.png" alt="linearly separable data">
 
+![png](output_111_0.png)
 
 
 ### Insights from trendline:
