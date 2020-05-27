@@ -621,8 +621,8 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 #plt.savefig(r'C:\Users\shrey\OneDrive\Desktop\Data Engineering\Graph for Project\% change in Stocks from Dec 19 to May 20.png')
 ```
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_32_0.png" alt="linearly separable data">
 
-![png](output_32_0.png)
 
 
 ### Top 10 Sectors that got the worst hit due to Covid-19:
@@ -694,8 +694,7 @@ plt.tight_layout()
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
-
-![png](output_38_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_38_0.png" alt="linearly separable data">
 
 
 ## Time series analysis on Covid Cases:
@@ -1725,8 +1724,8 @@ plt.grid(False)
 plt.savefig(r"C:\Users\shrey\OneDrive\Desktop\dendogram.png", format='png', bbox_inches='tight',transparent =True )
 ```
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_96_0.png" alt="linearly separable data">
 
-![png](output_96_0.png)
 
 
 ## Insights on Demographics and Covid cases with Regions:
@@ -1745,8 +1744,8 @@ plt.tight_layout()
 plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_98_0.png" alt="linearly separable data">
 
-![png](output_98_0.png)
 
 
 
@@ -1769,8 +1768,8 @@ plt.xlabel("Global Regions", fontsize = 18)
 
 
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_99_1.png" alt="linearly separable data">
 
-![png](output_99_1.png)
 
 
 
@@ -1790,7 +1789,8 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_100_0.png)
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_100_0.png" alt="linearly separable data">
+
 
 
 ## Time Series analysis for Corona cases:
@@ -2014,8 +2014,8 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 #plt.savefig(r'C:\Users\shrey\OneDrive\Desktop\Data Engineering\Graph for Project\Corona Cases Deaths Recovered.png')
 ```
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/stocks_covid/output_111_0.png" alt="linearly separable data">
 
-![png](output_111_0.png)
 
 
 ### Insights from trendline:
