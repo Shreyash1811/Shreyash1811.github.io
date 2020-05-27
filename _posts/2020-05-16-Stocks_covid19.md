@@ -693,7 +693,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_38_0.png)
+![png](/images/stocks_covid/output_38_0.png)
 
 
 ## Time series analysis on Covid Cases:
@@ -1724,7 +1724,7 @@ plt.savefig(r"C:\Users\shrey\OneDrive\Desktop\dendogram.png", format='png', bbox
 ```
 
 
-![png](output_96_0.png)
+![png](/images/stocks_covid/output_96_0.png)
 
 
 ## Insights on Demographics and Covid cases with Regions:
@@ -1744,7 +1744,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_98_0.png)
+![png](/images/stocks_covid/output_98_0.png)
 
 
 
@@ -1768,7 +1768,7 @@ plt.xlabel("Global Regions", fontsize = 18)
 
 
 
-![png](output_99_1.png)
+![png](/images/stocks_covid/output_99_1.png)
 
 
 
@@ -1788,7 +1788,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_100_0.png)
+![png](/images/stocks_covid/output_100_0.png)
 
 
 ## Time Series analysis for Corona cases:
@@ -2013,7 +2013,7 @@ plt.savefig('C:/Users/shrey/OneDrive/desktop/temp.png', transparent=True)
 ```
 
 
-![png](output_111_0.png)
+![png](/images/stocks_covid/output_111_0.png)
 
 
 ### Insights from trendline:
