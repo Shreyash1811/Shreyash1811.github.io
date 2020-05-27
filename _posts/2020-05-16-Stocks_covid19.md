@@ -1,10 +1,10 @@
 ---
 title: "S&P 500 Analysis with Covid 19"
 date: 2020-05-17
-tags: [Data Analysis]
+tags: [Data Analysis, Stock Market]
 header:
-  image: "/images/titanic_analysis/percept.jpg"
-excerpt: "Data Analysis"
+  image: "/images/stocks_covid/covid_header.jpg"
+excerpt: "Deep diving into impact of covid on Stock Market and Schools"
 mathjax: "true"
 ---
 # Impact on S&P 500 companies with Covid 19:
