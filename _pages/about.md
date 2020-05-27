@@ -54,8 +54,8 @@ I have worked in projects involving Data collection(web scraping), Database Mana
 |---------|:------:|
 |Data Science scripting:| Python, R, SAS.|
 |Databases:| SQL, SSIS, MySQL, Hive, DynamoDB, Google Big Query.|
-|Application Software:| Tableau, PowerBI, Alteryx, OBI, QlikView, Weka, Visio.|
-|Cloud Platforms:| AWS EC2, S3, Redshift.|
+|Application Software:| Tableau, PowerBI, Alteryx, OBI, QlikView, Weka, Visio, Google Analytics.|
+|Cloud Platforms:| AWS EC2, S3, Redshift, QuickSight, DynamoDB.|
 |Management Tools:| Advance Excel and Power Point, JIRA, Confluence, Airtable, Google Suite, Github.|
 
 
