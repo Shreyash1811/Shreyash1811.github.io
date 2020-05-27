@@ -213,4 +213,5 @@ text-transform: none;"> Data Analyst/ Insights Specialist, Alliance Fiber Ltd, S
 - Conducted Regression Analysis and other forecasting methods to predict the required production rate with 92% accuracy
 - Supervised a team of 4 to put forward cost cutting and marketing strategies; To further boost the Sales and profits.
 
-[BACK TO TOP](#top)
+
+[Back to Top](#top){: .btn .btn--primary}
