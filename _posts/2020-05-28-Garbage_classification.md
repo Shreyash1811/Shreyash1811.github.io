@@ -608,3 +608,6 @@ df
   </tbody>
 </table>
 </div>
+#### conclusions:
+- Our model seems to be doing great in classifying most of the object classes.
+- It is struggling between Glass and Metal since they have quite a similarity in appearance.  
