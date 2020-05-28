@@ -1,5 +1,5 @@
 ---
-title: "Garbage Classification using keras"
+title: "Garbage Classification using Neural Network with keras"
 date: 2020-05-17
 tags: [Image Classification]
 header:
