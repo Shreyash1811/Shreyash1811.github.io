@@ -11,7 +11,9 @@ mathjax: "true"
 ## Garbage Classification and Segregating using Image Recognition with Keras:
 
 #### Why is it import to know what goes in the garbage and reaches the dumps?
-Last summer I was fortunate to get to work with DSNY as a Business Intelligence Analyst, it was a great experience not only in the terms of work environment and seeing the New York City from within an organisation that keeps it the way it is but i actually learned how the waste that you throw goes through a dozen steps. DSNY makes sure to use every bit of what can be used from it. My last words of my report were **“I have been a part of NYC but DSNY made NYC a part of me”.**
+Last summer I was fortunate to get to work with DSNY as a Business Intelligence Analyst, it was a great experience not only in the terms of the work environment and seeing the New York City from within an organisation that keeps it the way it is but also learned how the waste that you throw goes through a dozen steps.
+
+DSNY makes sure to use every bit of what can be used from it. My last words on my report were **“I have been a part of NYC but DSNY made NYC a part of me”.**
 
 **One of the biggest hurdle or rather the most time consuming part** of the process to recycling that tons of waste is sorting the waste for recyclable waste from non recyclable waste. This project is an attempt to make machine do all the heavy lifting for us in doing the sorting.  
 
