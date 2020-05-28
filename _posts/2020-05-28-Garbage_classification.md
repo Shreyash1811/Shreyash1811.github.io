@@ -3,7 +3,7 @@ title: "Garbage Classification using keras"
 date: 2020-05-17
 tags: [Image Classification]
 header:
-  image: "/images/stocks_covid/covid_header.jpg"
+  image: "/images/garbage_classification/header.png"
 excerpt: "Deep diving into impact of covid on Stock Market and Schools"
 mathjax: "true"
 ---
