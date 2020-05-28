@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,4 +10,4 @@ redirect_from:
 {% include base_path %}
 
 
-[Click to View My Up-to-date Resume [PDF]](http://dginovker.github.io/files/Resume.pdf)
+[Click to View My Up-to-date Resume [PDF]](https://github.com/Shreyash1811/Shreyash1811.github.io/blob/master/images/Shreyashkathiriya_resume_Spring2020.pdf)
