@@ -5,7 +5,7 @@ categories: [Python]
 tags: [Image Classification]
 header:
   image: "/images/garbage_classification/header.png"
-excerpt: "Deep diving into impact of covid on Stock Market and Schools"
+excerpt: "Building a basic Neural Network to classify the type of waste using Keras"
 mathjax: "true"
 ---
 
