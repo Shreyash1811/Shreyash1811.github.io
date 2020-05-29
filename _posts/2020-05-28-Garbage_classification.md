@@ -2,6 +2,7 @@
 title: "Garbage Classification using Neural Network with keras"
 date: 2020-05-17
 tags: [Image Classification]
+categories: [Python]
 header:
   image: "/images/garbage_classification/header.png"
 excerpt: "Deep diving into impact of covid on Stock Market and Schools"
