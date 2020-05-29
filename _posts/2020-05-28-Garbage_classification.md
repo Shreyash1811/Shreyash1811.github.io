@@ -5,7 +5,7 @@ categories: [Python]
 tags: [Image Classification]
 header:
   image: "/images/garbage_classification/header.png"
-excerpt: "Building a basic Neural Network to classify the type of waste using Keras"
+excerpt: "Building a basic convolution Neural Network to classify the type of waste using Keras"
 mathjax: "true"
 ---
 
