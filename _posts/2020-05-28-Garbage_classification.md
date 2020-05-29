@@ -18,7 +18,7 @@ DSNY makes sure it recycles every bit of what can be recovered from the waste. M
 
 **One of the biggest hurdle or rather the most time consuming part** of the process to recycling that tons of waste is sorting the waste for recyclable waste from non recyclable waste. This project is an attempt to make machine do all the heavy lifting for us in doing the sorting.  
 
-##### What is Keras?
+#### What is Keras?
 Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible.
 
 ### Step 1: **Importing the required libraries**
