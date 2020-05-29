@@ -2,7 +2,8 @@
 title: "S&P 500 Analysis with Covid 19"
 date: 2020-05-17
 tags: [Stock Market]
-categories: [Python]
+categories:
+- Python
 header:
   image: "/images/stocks_covid/covid_header.jpg"
 excerpt: "Deep diving into impact of covid on Stock Market and Schools"
