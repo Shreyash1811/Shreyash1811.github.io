@@ -590,7 +590,8 @@ df_preprocessed.dtypes
 
 
 
-To make TF-IDF vectorizer efficient, we have to specify rather large vocabulary(max_features). It causes very very large dataset dimensionality. Usually this causes RAM issues or computational time issues on the model training step. Therefore, sklearn.feature_extraction.text.TfidfVectorizer returns sparse matrix as the output, which is much more memmory efficient and computational time efficient for some classifier models, which are able to deal with sparse matrices. But some of further preprocessing steps, are not able to deal with this, so the next steps will be very memory-consuming. Because of that I have chosen only 10 000 words vocabulary.
+To make TF-IDF vectorizer efficient, we have to specify rather large vocabulary(max_features). It causes very very large dataset dimensionality. Usually this causes RAM issues or computational time issues on the model training step.
+Therefore, sklearn.feature_extraction.text.TfidfVectorizer returns sparse matrix as the output, which is much more memmory efficient and computational time efficient for some classifier models, which are able to deal with sparse matrices. But some of further preprocessing steps, are not able to deal with this, so the next steps will be very memory-consuming. Because of that I have chosen only 10 000 words vocabulary.
 
 
 ```python
@@ -616,8 +617,8 @@ As was afore-mentioned this dataset has to be somehow balanced, to get more robu
 I have chosen imbalanced-learn python package, which provides many models for balancing purposes.
 
 As the undersampling model imblearn.under_sampling.InstanceHardnessThreshold with sklearn.svm.LinearSVC estimator was chosen. For more information about this undersampling method follow this
-- https://imbalanced-learn.readthedocs.io/en/stable/under_sampling.html#instance-hardness-threshold
-- https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581
+- [imbalanced-learn.readthedocs.io](https://imbalanced-learn.readthedocs.io/en/stable/under_sampling.html#instance-hardness-threshold)
+- [https://towardsdatascience.com](https://towardsdatascience.com/instance-hardness-threshold-an-undersampling-method-to-tackle-imbalanced-classification-problems-6d80f91f0581)
 
 
 ```python
