@@ -1199,16 +1199,21 @@ display(Markdown(f"**Overall** correctly classified"))
 print_confusion_matrix(mtx, class_names=[l for l, _ in clfs], xlabel="", ylabel="", figsize=(5,5))
 ```
 Differect of correctly classified: `alt.atheism`
+
 ![png](\images\text_mining_news\__results___53_1.png)
 
 Differect of correctly classified: `comp.sys.mac.hardware`
+
 ![png](\images\text_mining_news\__results___53_3.png)
 
 Differect of correctly classified: `talk.politics.misc`
+
 ![png](\images\text_mining_news\__results___53_5.png)
 
 Differect of correctly classified: `talk.religion.misc`
+
 ![png](\images\text_mining_news\__results___53_7.png)
 
 **Overall correctly classified**
+
 ![png](\images\text_mining_news\__results___51_9.png) 
