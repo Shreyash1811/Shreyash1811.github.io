@@ -1131,6 +1131,40 @@ vclf_sgd.fit(X_selected, y)
 evaluate_model(vclf_sgd, X_selected, y, X_test_selected, y_test)
 
 ```
+    Accuracy: 0.98 (+/- 0.00)
+    Accuracy test: 0.81 (+/- 0.00)
+    Test classification report:
+                              precision    recall  f1-score   support
+
+                 alt.atheism       0.79      0.76      0.78       251
+               comp.graphics       0.75      0.82      0.79       317
+     comp.os.ms-windows.misc       0.76      0.82      0.79       285
+    comp.sys.ibm.pc.hardware       0.72      0.74      0.73       291
+       comp.sys.mac.hardware       0.87      0.78      0.83       299
+              comp.windows.x       0.84      0.82      0.83       277
+                misc.forsale       0.81      0.82      0.82       288
+                   rec.autos       0.89      0.88      0.88       304
+             rec.motorcycles       0.93      0.91      0.92       316
+          rec.sport.baseball       0.96      0.93      0.94       300
+            rec.sport.hockey       0.97      0.95      0.96       310
+                   sci.crypt       0.95      0.89      0.92       292
+             sci.electronics       0.80      0.80      0.80       301
+                     sci.med       0.91      0.84      0.87       275
+                   sci.space       0.91      0.90      0.91       295
+      soc.religion.christian       0.85      0.85      0.85       291
+          talk.politics.guns       0.85      0.84      0.85       245
+       talk.politics.mideast       0.93      0.90      0.92       276
+          talk.politics.misc       0.73      0.82      0.77       236
+          talk.religion.misc       0.63      0.72      0.67       200
+
+                   micro avg       0.84      0.84      0.84      5649
+                   macro avg       0.84      0.84      0.84      5649
+                weighted avg       0.85      0.84      0.84      5649
+
+    Test confusion matrix:
+
+![png](\images\text_mining_news\__results___51_1.png)  
+
 
 ## Comparison
 
@@ -1164,3 +1198,17 @@ for i, (label1, clf1) in enumerate(clfs):
 display(Markdown(f"**Overall** correctly classified"))
 print_confusion_matrix(mtx, class_names=[l for l, _ in clfs], xlabel="", ylabel="", figsize=(5,5))
 ```
+Differect of correctly classified: `alt.atheism`
+![png](\images\text_mining_news\__results___53_1.png)
+
+Differect of correctly classified: `comp.sys.mac.hardware`
+![png](\images\text_mining_news\__results___53_3.png)
+
+Differect of correctly classified: `talk.politics.misc`
+![png](\images\text_mining_news\__results___53_5.png)
+
+Differect of correctly classified: `talk.religion.misc`
+![png](\images\text_mining_news\__results___53_7.png)
+
+**Overall correctly classified**
+![png](\images\text_mining_news\__results___51_9.png) 
