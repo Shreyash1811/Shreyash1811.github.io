@@ -5,7 +5,7 @@ categories: [Python]
 tags: [Text Mining]
 header:
   image: "/images/text_mining_news/header.png"
-excerpt: "----"
+excerpt: "Text mining on news articles with 20 categories, predicted the category from the attributes extracted from the processed text."
 mathjax: "true"
 ---
 <a id = "top"></a>
