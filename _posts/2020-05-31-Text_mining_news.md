@@ -1,6 +1,6 @@
 ---
 title: "Text Mining on News articles, and category prediction"
-date: 2020-05-17
+date: 2020-05-31
 categories: [Python]
 tags: [Text Mining]
 header:
@@ -561,7 +561,21 @@ print("Post text preprocessing:\n",df_preprocessed.iloc[0,3])
 
     ---------------------------------------------------------------------------------------------------------
     Post text preprocessing:
-     clipper consider harmful Clipper come cellular phone legal proscription cipher system phone new potentially dangerous class crime create Criminals badly want inscrutable tactical communication specifically terrorist drug dealer proponent key escrow cite threat highly motivated steal cipher phone legitimate user kill person hold hostage discovery compromise device delay Yow sleep Brad mean people ie lifeischeap terrorist drugdeale warlord want communicate privacy prefer break house kill kidnap steal telephone spend Kmart buy new phone purchase load phone black market flea market super market talk gasp facetoface walk million pay phone messenger go excruciating effort think code phrase like blowout freeway today look system threaten folk know wiretappe trivial find avenue communication would reason resort extreme measure plethora simple alternative easily available legitimate reason damn propose system think need worry terrorist commie drug warlord assasin thug murder family kick dog leave toilet seat steal telephone system like urine test catch small number stupid people effect bad guy neuron work unison wish subvert penalize heavily cause subject Steve Hollasch Kubota Pacific Computer Inc Santa Clara California
+     clipper consider harmful Clipper come cellular phone legal proscription cipher
+     system phone new potentially dangerous class crime create Criminals badly want
+     inscrutable tactical communication specifically terrorist drug dealer proponent
+     key escrow cite threat highly motivated steal cipher phone legitimate user kill
+     person hold hostage discovery compromise device delay Yow sleep Brad mean people
+     ie lifeischeap terrorist drugdeale warlord want communicate privacy prefer break
+     house kill kidnap steal telephone spend Kmart buy new phone purchase load phone
+     black market flea market super market talk gasp facetoface walk million pay phone
+     messenger go excruciating effort think code phrase like blowout freeway today look
+     system threaten folk know wiretappe trivial find avenue communication would reason
+     resort extreme measure plethora simple alternative easily available legitimate reason
+     damn propose system think need worry terrorist commie drug warlord assasin thug murder
+     family kick dog leave toilet seat steal telephone system like urine test catch small
+     number stupid people effect bad guy neuron work unison wish subvert penalize heavily
+     cause subject Steve Hollasch Kubota Pacific Computer Inc Santa Clara California
 
 
 ### Feature extraction
