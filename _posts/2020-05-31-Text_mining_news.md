@@ -1216,6 +1216,4 @@ Differect of correctly classified: `talk.religion.misc`
 
 **Overall correctly classified**
 
-![png](\images\text_mining_news\results51_9.png)
-
-![png](\images\text_mining_news\output_63_1.png)
+![png](\images\text_mining_news\results53_9.png)
