@@ -24,7 +24,7 @@ revenue.
 - Used Alteryx to merge and transform the text data before importing it to tableau
 - Build a simple report based on the output file (Tableau or PBI)
 
-<img src="\images\harriott_group\alteryx_flow.PNG" alt="drawing" height="500" width="1600"/>
+<img src="\images\harriott_group\alteryx_flow.PNG" alt="drawing" height="1600" width="1600"/>
 
 ## Areas to analyze:
 - Revenue per hotel YoY
