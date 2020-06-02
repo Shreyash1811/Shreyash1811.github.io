@@ -31,7 +31,7 @@ revenue.
 - How does Business vs Leisure effect pricing?
 - Bring Alteryx and Tableau/PBI together by building a Harriott Dashboard. Make the dashboard interactive, so executives can explore the data
 
-![png](\images\harriott_group\alteryx_flow.PNG = 1200)
+![png](\images\harriott_group\alteryx_flow.PNG = 1200x)
 
 <html>
     <head>
