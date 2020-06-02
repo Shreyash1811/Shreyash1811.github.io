@@ -20,18 +20,18 @@ revenue.
 
 # Data Collection and Preliminary Analysis
 ## *Merge and explore the revenue, hotel, amenity, and customer files. Do preliminary EDA to understand current state business.*
-## The Ask:
-- Use Alteryx to merge and transform the text data
+## The process I followed:
+- Used Alteryx to merge and transform the text data before importing it to tableau
 - Build a simple report based on the output file (Tableau or PBI)
+![png](\images\harriott_group\alteryx_flow.PNG =1200x500)
+
 ## Areas to analyze:
 - Revenue per hotel YoY
 - Occupancy rate per hotel – Is there seasonality?
 - Room night pricing. What's the average and range?
 - Are there different types of customers that stay at each hotel? Is there clusters of customers that have the same behavior?
 - How does Business vs Leisure effect pricing?
-- Bring Alteryx and Tableau/PBI together by building a Harriott Dashboard. Make the dashboard interactive, so executives can explore the data
 
-![png](\images\harriott_group\alteryx_flow.PNG =1200x500)
 
 <html>
     <head>
