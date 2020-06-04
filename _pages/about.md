@@ -18,18 +18,15 @@ text-transform: none;"> Table of Content: </p>
 
 |No.| Information  |
 |---|---|
-|1.| [Introduction:](#intro)  |
-
-1. [Introduction:](#intro)
-2. [Education:](#edu)
-    * [B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.](#edu1)
-    * [ Masters of Science in Management of Technology from New York University, New York, USA.](#edu2)
-3. [Work Experience](#ex)
-    - [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)
-    - [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)
-    - [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)
-    - [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)
-
+|1.| [Introduction](#intro)  |
+|2.| [Education](#edu) |
+|2.1| - [B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.](#edu1) |
+|2.2| - [Masters of Science in Management of Technology from New York University, New York, USA.](#edu2) |
+|3.| [Work Experience](#ex) |
+|3.1|- [Business Analyst, New York University IT Operations Technology Services Support.](#ex1)|
+|3.2|- [Business Intelligence Analyst, NYC Department of Sanitation, Bureau of Recycling and Sustainability.](#ex2)|
+|3.3|- [EndNote Software Citation Assistant, New York University Dentistry.](#ex3)|
+|3.4|- [Data Analyst/ Insights Specialist, Alliance Fiber Ltd, Surat, India](#ex4)|
 
 
 <a id = "top"></a>
