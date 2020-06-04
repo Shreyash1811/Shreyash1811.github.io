@@ -9,8 +9,6 @@ excerpt: "The objective of the project was to successfully retrieve data from Ya
 mathjax: "true"
 ---
 
-# Stock Market Forecasting Using FB-Prophet:
-
 ### What is fbprophet?
 *Fbprophet is an open source released by Facebook in order to provide some useful guidance for producing forecast at scale. By default, it would divide a time series into trend and seasonality, which might contain yearly, weekly and daily. However, analysts can define their own seasonality. To get better understanding about the package, the document from Prophet is really helpful.*
 
@@ -43,9 +41,9 @@ import yfinance as yf
 ## First Step: Data Acquisition.
 We need some stocks data to train, test and forcast.
 
-1) We can simple go to yahoo finance and download the data in a csv, but that wouldnt be cool now, would it be?
+1) We can simple go to yahoo finance and download the data in a csv but that wouldn't be cool, would it be?
 
-2) There are plenty on libraries that let you trim stock data. I will be using yfinance as it is convenient and easy to use.
+2) There are plenty of libraries that let you trim stock data. I will be using yfinance as it is convenient and easy to use.
 
 **Now that we know where to get the data from, we have to decided from what date we want the data**
 
