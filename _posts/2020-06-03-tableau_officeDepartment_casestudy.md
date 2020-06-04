@@ -1,5 +1,5 @@
 ---
-title: "Harriott Hotel Group case study : Annual Analytics on Tableau and Alteryx"
+title: "Office Destination Gross sales and profit Dashboard"
 date: 2020-06-02
 categories: [Tableau]
 tags: [Data Analysis]
@@ -17,7 +17,7 @@ mathjax: "true"
 - Company is losing money in Central Region.
 
 ### Outliers in the Data:
-- 
+-
 
 <html>
     <head>
