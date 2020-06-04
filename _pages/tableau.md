@@ -3,8 +3,9 @@ title: "Tableau Dashboards"
 permalink: /tableau/
 date: 2020-02-10
 header:
-  image: "/images/banners/project_nav.jpg"
+  image: "/images/banners/tableau_header.jpg"
 ---
+# Dashboard 1:
 # Harriott Hotel Group (HHG)
 
 ## *Comfortably Classy*
@@ -19,7 +20,6 @@ revenue.
 ## *Merge and explore the revenue, hotel, amenity, and customer files. Do preliminary EDA to understand current state business.*
 ## The process I followed:
 - Used Alteryx to merge and transform the text data before importing it to tableau
-- Build a simple report based on the output file (Tableau or PBI)
 
 <img src="\images\harriott_group\alteryx_flow.PNG" alt="drawing" height="1600" width="1600"/>
 
@@ -42,6 +42,7 @@ revenue.
     </body>
 </html>
 
+# Dashboard 2:
 
 # Office Destination Sales Dashboard:
 ### Insights based on the Data analysis:
@@ -52,7 +53,9 @@ revenue.
 - Company is losing money in Central Region.
 
 ### Outliers in the Data:
--
+- We see some inconsistency with consumer segment sales and profit.
+*Even with high sales the revenue in this segment is growing negative.
+Chances are this is due to change in making cost of the consumer segment attracted products. There are several reasons to boost in making cost for the manufacturing from government policies to natural disasters to as straight forward as scarcity of the raw materials* 
 
 <html>
     <head>
