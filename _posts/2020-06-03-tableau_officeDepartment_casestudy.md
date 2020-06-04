@@ -4,7 +4,7 @@ date: 2020-06-02
 categories: [Tableau]
 tags: [Data Analysis]
 header:
-  image: "/images/harriott_group/header.jpg"
+  image: "/images/department_office/header.jpg"
 excerpt: ""
 mathjax: "true"
 ---
