@@ -16,6 +16,10 @@ text-align: center;
 font-variant: small-caps;
 text-transform: none;"> Table of Content: </p>
 
+|No.| Information  |
+|---|---|
+|1.| [Introduction:](#intro)  |
+
 1. [Introduction:](#intro)
 2. [Education:](#edu)
     * [B-Tech Electronics and Telecommunication from NMIMS Mumbai, India.](#edu1)
