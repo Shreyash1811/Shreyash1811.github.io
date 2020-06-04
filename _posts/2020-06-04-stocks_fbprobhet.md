@@ -206,7 +206,7 @@ plt.show()
 ```
 
 
-![png](images/stocks_fbprophet/output_11_0.png)
+![png](\images\stocks_fbprophet\output_11_0.png)
 
 
 ### The timeseries Graph above is informative to see through a couple of things:
@@ -389,7 +389,7 @@ plt.title('Forecasted S&P 500')
 
 
 
-![png](images/stocks_fbprophet/output_20_1.png)
+![png](\images\stocks_fbprophet\output_20_1.png)
 
 
 ## Some cool functions in FBprophet:
@@ -428,7 +428,7 @@ corona_prophet.plot_components(corona_forecast);
 ```
 
 
-![png](images/stocks_fbprophet/output_23_0.png)
+![png](\images\stocks_fbprophet\output_23_0.png)
 
 
 *We see a gradually rising blue line which implies forecasted growth for next 6 months*
@@ -500,7 +500,7 @@ analysis(stock_data['Close'],'2020-05-01',30,forecast_plot=True,print_ind=True)
 ```
 
 
-![png](images/stocks_fbprophet/output_29_0.png)
+![png](\images\stocks_fbprophet\output_29_0.png)
 
 
     Projected return per cycle: 23.01
@@ -520,7 +520,7 @@ analysis(stock_data['Close'],'2020-05-01',300,forecast_plot=True,print_ind=True)
 ```
 
 
-![png](images/stocks_fbprophet/output_30_0.png)
+![png](\images\stocks_fbprophet\output_30_0.png)
 
 
     Projected return per cycle: 128.26
@@ -571,7 +571,7 @@ plt.show()
 ```
 
 
-![png](images/stocks_fbprophet/output_34_0.png)
+![png](\images\stocks_fbprophet\output_34_0.png)
 
 
 ## It is still difficult to pin point the length of cycle with that volatile line graph:
@@ -637,7 +637,7 @@ analysis(stock_data['Close'],'2020-05-01', c , forecast_plot=True, print_ind=Tru
 ```
 
 
-![png](images/stocks_fbprophet/output_39_0.png)
+![png](\images\stocks_fbprophet\output_39_0.png)
 
 
     Projected return per cycle: 103.65
