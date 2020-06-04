@@ -3,7 +3,7 @@ title: "Tableau Dashboards"
 permalink: /tableau/
 date: 2020-02-10
 header:
-  image: "/images/banners/tableau_header.jpg"
+  image: "/images/banners/tableau_header.png"
 ---
 # Dashboard 1:
 # Harriott Hotel Group (HHG)
@@ -55,7 +55,7 @@ revenue.
 ### Outliers in the Data:
 - We see some inconsistency with consumer segment sales and profit.
 *Even with high sales the revenue in this segment is growing negative.
-Chances are this is due to change in making cost of the consumer segment attracted products. There are several reasons to boost in making cost for the manufacturing from government policies to natural disasters to as straight forward as scarcity of the raw materials* 
+Chances are this is due to change in making cost of the consumer segment attracted products. There are several reasons to boost in making cost for the manufacturing from government policies to natural disasters to as straight forward as scarcity of the raw materials*
 
 <html>
     <head>
