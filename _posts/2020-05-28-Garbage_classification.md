@@ -52,7 +52,7 @@ img_list = glob.glob(os.path.join(base_path, '*/*.jpg'))
 print(len(img_list))
 ```
 
-    2527
+2527
 
 
 ### Preview of the images:
