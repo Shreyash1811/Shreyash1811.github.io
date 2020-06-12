@@ -34,7 +34,7 @@ ___
 
  <b>Model: Logistic regression</b>
 
-- $p(y = 1|x) = sigma(w^{T}x)$
+- $$p(y = 1|x) = sigma(w^{T}x)$$
 - Linear classification model
 - Can handle sparse data
 - Fast to train
