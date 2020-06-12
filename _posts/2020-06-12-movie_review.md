@@ -10,7 +10,7 @@ mathjax: "true"
 ---
 
 
-<img src="" align="center"> <h2 align="center">Logistic Regression: A Sentiment Analysis Case Study</h2>
+ <h2 align="center">Logistic Regression: A Sentiment Analysis Case Study</h2>
 
 
 
