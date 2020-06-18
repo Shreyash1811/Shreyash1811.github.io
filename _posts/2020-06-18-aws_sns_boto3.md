@@ -4,7 +4,7 @@ date: 2020-06-18
 categories: [Python]
 tags: [AWS]
 header:
-  image: "/images/aws_s3_boto3/header.png"
+  image: "/images/aws_sns_boto3/header.png"
 excerpt: "The objective of the post was to learn and understand importance of AWS SNS and configuration of this service using Boto3 on python. Further, we managed topics, subscribers and message bodies. Finally, we built an Alert System for a government trying to alert students to avoid coming to school on a heavy rain days using all the techniques we learned"
 mathjax: "true"
 ---
