@@ -1,12 +1,12 @@
 ---
-title: "S&P 500 Analysis with Covid 19"
+title: "Impact on S&P 500 due to Covid 19 Analysis"
 date: 2020-05-16
 tags: [Stock Market]
 categories:
 - Python
 header:
   image: "/images/stocks_covid/covid_header.jpg"
-excerpt: "Deep diving into impact of covid on Stock Market and Schools"
+excerpt: "The objective of the notebook was to extract data from y_finance library and understand and explore S&P 500 Index and further deep dive into impact on stock market due to covid. I tried to analyze other social impacts  on Schools"
 mathjax: "true"
 ---
 # Impact on S&P 500 companies with Covid 19:
