@@ -34,8 +34,8 @@ import boto3
 ```python
 # Build a client to access the service methods
 sns = boto3.client('sns',region_name='us-east-1',
-                  aws_access_key_id='AKIAQU6F5LRCKOWLDSTU',
-                  aws_secret_access_key='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')
+                  aws_access_key_id='****',
+                  aws_secret_access_key='****')
 ```
 
 ### Creating a Topic:
@@ -477,8 +477,3 @@ https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
 ### That is about all the basic functions for SNS that you would need to get started.
 # Happy Learning
-
-
-```python
-
-```
