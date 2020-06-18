@@ -1,6 +1,6 @@
 ---
 title: "Garbage Classification using Neural Network with keras"
-date: 2020-05-17
+date: 2020-05-28
 categories: [Python]
 tags: [Image Classification]
 header:

@@ -1,6 +1,6 @@
 ---
 title: "S&P 500 Analysis with Covid 19"
-date: 2020-05-17
+date: 2020-05-16
 tags: [Stock Market]
 categories:
 - Python

@@ -1,6 +1,6 @@
 ---
 title: "Stock market forecasting using yfinance and fbprophet"
-date: 2020-05-31
+date: 2020-06-04
 categories: [Python]
 tags: [Stock Market]
 header:

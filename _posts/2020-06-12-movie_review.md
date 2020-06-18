@@ -1,6 +1,6 @@
 ---
 title: "Introduction to sklearn NLTK, Logistic Regression classification on Movie Reviews to predict ratings"
-date: 2020-05-31
+date: 2020-06-12
 categories: [Python]
 tags: [Text Mining]
 header:
