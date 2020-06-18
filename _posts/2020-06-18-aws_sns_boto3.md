@@ -1,5 +1,5 @@
 ---
-title: "AWS SNS Topic Configuration and Handling with Boto3 on Python with a alert system project."
+title: "AWS SNS Topic Configuration and Handling with Boto3 on Python with an alert system project."
 date: 2020-06-18
 categories: [Python]
 tags: [AWS]
