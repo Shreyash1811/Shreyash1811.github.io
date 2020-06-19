@@ -306,7 +306,7 @@ We can see that this subscriber was registered over mail and is still under pend
 
 **Problem Statement:**
 
-Government in India realised how rains and flooding in rural areas occurs often and due to restrictive infrastructure due to availability of less staff and technologies ir becomes difficult to inform students and their parents to not leave for school before it is too late.
+Government in India realized how rains and flooding in rural areas occurs often and due to restrictive infrastructure due to availability of less staff and technologies it becomes difficult to inform students and their parents to not leave for school before it is too late.
 
 **Solution:**
 
@@ -472,7 +472,9 @@ This simple system should help the government keep students in each district saf
 
 Our built system would work perfect on aws kinesis data stream which lets us stream live data from the sensors and process it.
 You can further refer to below links to learn more
+
 https://medium.com/swlh/real-time-data-streaming-with-python-aws-kinesis-how-to-part-1-cd56feb6fd0f
+
 https://boto3.amazonaws.com/v1/documentation/api/latest/index.html
 
 ### That is about all the basic functions for SNS that you would need to get started.
