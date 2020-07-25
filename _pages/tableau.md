@@ -5,7 +5,33 @@ date: 2020-02-10
 header:
   image: "/images/banners/tableau_header.png"
 ---
+|No.| Information  |
+|---|---|
+|1.| [Practice Charts](#pract)  |
+|1.1| [Sunburst Chart](#char1) |
+|2.|  [Case Study ](#case) |
+|2.1| [Harriott Hotel Group](#case1) |
+|2.2| [Office Destination Sales](#case2) |
+|2.3| [Employment Now](#case3) |
+|2.3| [Employment Now extended Analysis](#case4) |
+
+# Practice Charts
+<a id = "pract"></a>
+
+## Sunburst Chart 1:
+
+<html>
+    <head>
+        <title> Sunburst Sales Chart </title>
+    </head>
+    <body>
+<div class='tableauPlaceholder' id='viz1595691198039' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;SunburstSalesDashboard_15956909077580&#47;SunburstDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SunburstSalesDashboard_15956909077580&#47;SunburstDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;SunburstSalesDashboard_15956909077580&#47;SunburstDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1595691198039');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='800px';vizElement.style.height='827px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</body>
+</html>
+<a id = "char1"></a>
+
 # Case Study 1:
+<a id = "case"></a>
 # Harriott Hotel Group (HHG)
 
 ## *Comfortably Classy*
@@ -15,7 +41,7 @@ A hotel chain with a national footprint that has several brands
 Harriott would like to understand the general state of their
 business along with how amenities impact their top line
 revenue.
-
+<a id = "case1"></a>
 # Data Collection and Preliminary Analysis
 ## *Merge and explore the revenue, hotel, amenity, and customer files. Do preliminary EDA to understand current state business.*
 ## The process I followed:
@@ -43,7 +69,7 @@ revenue.
 </html>
 
 # Case Study 2:
-
+<a id = "case2"></a>
 # Office Destination Sales Dashboard:
 ### Insights based on the Data analysis:
 - The Sub categories we are losing the most money:
@@ -73,7 +99,7 @@ Chances are this is due to change in making cost of the consumer segment attract
 # Case Study 3:
 
 # Employment Now:
-
+<a id = "case3"></a>
 ### Background:
 Employment Now! Is a Back to Work program contracted by the Human Resource Administration (HRA) of NY to assist
 candidates enrolled in Public Assistance in finding and retaining employment. Their services include resume writing,
@@ -94,7 +120,7 @@ relationships with employers throughout NYC and refer them to various interviews
 
 ## Further extended Analysis on Wages Distribution:
 
-
+<a id = "case4"></a>
 <html>
     <head>
         <title> Office Destination Sales Dashboard</title>
